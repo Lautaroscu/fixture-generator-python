@@ -160,14 +160,14 @@ class FixtureGenerator:
                 penalty_var = model.NewBoolVar(f"penalty_{d}_{clubA}_{clubB}_{t1}_{t2}")
                 penalties.append(penalty_var * peso)
 
-                # INVERSO: Si juegan cruzado (locA != locB), penalty = 1
+                # INVERSO: Si juegan igual (locA == locB), penalty = 1 (Queremos que jueguen cruzado)
                 if tipo == "INVERSO":
-                    model.Add(locA != locB).OnlyEnforceIf(penalty_var)
-                    model.Add(locA == locB).OnlyEnforceIf(penalty_var.Not())
-                # ESPEJO: Si juegan igual (locA == locB), penalty = 1
-                elif tipo == "ESPEJO":
                     model.Add(locA == locB).OnlyEnforceIf(penalty_var)
                     model.Add(locA != locB).OnlyEnforceIf(penalty_var.Not())
+                # ESPEJO: Si juegan cruzado (locA != locB), penalty = 1 (Queremos que jueguen igual)
+                elif tipo == "ESPEJO":
+                    model.Add(locA != locB).OnlyEnforceIf(penalty_var)
+                    model.Add(locA == locB).OnlyEnforceIf(penalty_var.Not())
 
         if penalties:
             model.Minimize(sum(penalties))

@@ -89,7 +89,7 @@ def migrate():
             div_may = c_data.get("division_mayores", "A")
             div_men = c_data.get("division_menores", "A")
             reglas.append({
-                "tipo": "INVERSO",
+                "tipo": "ESPEJO",
                 "club": c_name,
                 "torneo1": f"MAYORES-{div_may}",
                 "torneo2": f"MENORES-{div_men}"
@@ -98,11 +98,11 @@ def migrate():
         tiene_femenino = any("femenino" in k for k in cats)
         if tiene_femenino and tiene_mayores:
             div_may = c_data.get("division_mayores", "A")
-            # Por defecto femenino cruza cruzado (ESPEJO) con el masculino
-            tipo_fem = "ESPEJO"
-            # Excepciones que van juntos (INVERSO) por compartir tira completa en mismo estadio
-            if c_name in ["Loma Negra", "Independiente", "Independiente (rojo)"]:
-                tipo_fem = "INVERSO"
+            # Por defecto femenino cruza cruzado (INVERSO) con el masculino
+            tipo_fem = "INVERSO"
+            # Excepciones que van juntos (ESPEJO) por compartir tira completa en mismo estadio
+            if c_name in ["Loma Negra", "Independiente", "Independiente (rojo)", "Ferro Azul", "SAN LORENZO (RAUCH)"]:
+                tipo_fem = "ESPEJO"
                 
             reglas.append({
                 "tipo": tipo_fem,
@@ -171,8 +171,7 @@ def migrate():
             t['participantes'].append("Alumni/Defensores")
 
     # 2. Procesar y limpiar reglas (esquema normalizado)
-    reglas_limpias = []
-    firmas_vistas = set()
+    firmas_vistas = {}
 
     for r in reglas:
         origen = r.get('clubA', r.get('club'))
@@ -187,17 +186,17 @@ def migrate():
 
         # Crear firma única para detectar duplicados (orden alfabético para simetría)
         par = tuple(sorted([(str(origen), str(t1)), (str(destino), str(t2))]))
-        firma = (tipo, par)
+        
+        # Guardaremos la regla en un diccionario para que la última (manual) sobreescriba a la primera (orgánica)
+        firmas_vistas[par] = {
+            "tipo": tipo,
+            "equipo_origen": origen,
+            "torneo_origen": t1,
+            "equipo_destino": destino,
+            "torneo_destino": t2
+        }
 
-        if firma not in firmas_vistas:
-            firmas_vistas.add(firma)
-            reglas_limpias.append({
-                "tipo": tipo,
-                "equipo_origen": origen,
-                "torneo_origen": t1,
-                "equipo_destino": destino,
-                "torneo_destino": t2
-            })
+    reglas_limpias = list(firmas_vistas.values())
 
     # Regla espejo explícita para la fusión
     reglas_limpias.append({
