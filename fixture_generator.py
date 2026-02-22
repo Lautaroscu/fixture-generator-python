@@ -110,29 +110,28 @@ class FixtureGenerator:
             club_host_vars = []
             
             for t_name in ayacucho_teams:
-                # Recopilar todas las variables de localía de este club específico en cualquier torneo en la fecha D
+                # Recopilar variables de localía SÓLO para torneos MAYORES (es lo que importa logísticamente / policía)
                 local_vars_for_club = []
                 for t_id, participantes in self.torneos_dict.items():
-                    if t_name in participantes and d <= self.fechas_por_torneo[t_id]:
+                    if t_name in participantes and d <= self.fechas_por_torneo[t_id] and "MAYORES" in t_id:
                         local_vars_for_club.append(self.es_local[(d, t_id, t_name)])
                 
                 if local_vars_for_club:
-                    # Crear una variable booleana que represente "La Institución es Local Hoy"
+                    # Crear una variable booleana que represente "La Institución es Local Hoy en Primera"
                     is_club_host = model.NewBoolVar(f"is_host_{d}_{t_name}")
-                    # is_club_host es True si al menos una categoría juega de local
                     model.AddMaxEquality(is_club_host, local_vars_for_club)
                     club_host_vars.append(is_club_host)
             
             if club_host_vars:
-                # Forzar que MÁXIMO 2 clubes (instituciones) sean locales en la misma jornada
+                # Forzar que MÁXIMO 2 clubes (instituciones) sean locales de MAYORES en la misma jornada en Ayacucho
                 model.Add(sum(club_host_vars) <= 2)
 
         for d in range(1, self.fechas_max + 1):
-            juarense_vars = [self.es_local[(d, t_id, "Juarense")] for t_id, p in self.torneos_dict.items() if "Juarense" in p and d <= self.fechas_por_torneo[t_id]]
-            alumni_vars = [self.es_local[(d, t_id, "Alumni")] for t_id, p in self.torneos_dict.items() if "Alumni" in p and d <= self.fechas_por_torneo[t_id]]
+            # Seguridad Juárez: Mayores de Juarense y Mayores de Alumni no pueden ser locales el mismo día
+            juarense_vars = [self.es_local[(d, t_id, "Juarense")] for t_id, p in self.torneos_dict.items() if "Juarense" in p and d <= self.fechas_por_torneo[t_id] and "MAYORES" in t_id]
+            alumni_vars = [self.es_local[(d, t_id, "Alumni")] for t_id, p in self.torneos_dict.items() if "Alumni" in p and d <= self.fechas_por_torneo[t_id] and "MAYORES" in t_id]
             
             if juarense_vars and alumni_vars:
-                # We expect them to only be in 1 primary tournament each (MAYORES-A, MAYORES-B), but just in case we ANY them
                 for j_v in juarense_vars:
                     for a_v in alumni_vars:
                         model.Add(j_v + a_v <= 1)
@@ -145,6 +144,7 @@ class FixtureGenerator:
             clubB = r.get("equipo_destino")
             t1 = r.get("torneo_origen")
             t2 = r.get("torneo_destino")
+            es_hard = r.get("hard", False)
             peso = r.get("peso", 5000) # Weight 5000 for strict enforcement mostly everywhere
             
             # Solo podemos comparar fechas en común
@@ -157,8 +157,10 @@ class FixtureGenerator:
                 locA = self.es_local[(d, t1, clubA)]
                 locB = self.es_local[(d, t2, clubB)]
                 
+                peso_real = 5000000 if es_hard else peso
+                
                 penalty_var = model.NewBoolVar(f"penalty_{d}_{clubA}_{clubB}_{t1}_{t2}")
-                penalties.append(penalty_var * peso)
+                penalties.append(penalty_var * peso_real)
 
                 # INVERSO: Si juegan igual (locA == locB), penalty = 1 (Queremos que jueguen cruzado)
                 if tipo == "INVERSO":

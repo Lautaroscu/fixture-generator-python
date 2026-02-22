@@ -101,16 +101,51 @@ def migrate():
             # Por defecto femenino cruza cruzado (INVERSO) con el masculino
             tipo_fem = "INVERSO"
             # Excepciones que van juntos (ESPEJO) por compartir tira completa en mismo estadio
-            if c_name in ["Loma Negra", "Independiente", "Independiente (rojo)", "Ferro Azul", "SAN LORENZO (RAUCH)"]:
+            # Solo Loma Negra de acuerdo a las últimas restricciones
+            if c_name in ["Loma Negra"]:
                 tipo_fem = "ESPEJO"
                 
             reglas.append({
                 "tipo": tipo_fem,
                 "club": c_name,
                 "torneo1": f"MAYORES-{div_may}",
-                "torneo2": "FEMENINO-A"
+                "torneo2": "FEMENINO-A",
+                "hard": True
             })
             
+    # ------ EXCEPCIONES EXPLICITAS FEMENINAS ------
+    # "solo tiene q pasar con los femeninos de Loma negra, Independiente que sigue a Independiente Rojo y Ferro, que sigue a Ferro Azul."
+    # Independiente Rojo (MAYORES-B) e Independiente (FEMENINO-A)
+    reglas.append({
+        "tipo": "ESPEJO",
+        "clubA": "Independiente (rojo)",
+        "clubB": "Independiente",
+        "torneo1": "MAYORES-B",
+        "torneo2": "FEMENINO-A",
+        "hard": True
+    })
+    
+    # Ferro Azul (MENORES-B) y Ferrocarril Sud (FEMENINO-A)
+    reglas.append({
+        "tipo": "ESPEJO",
+        "clubA": "Ferro Azul",
+        "clubB": "Ferrocarril Sud",
+        "torneo1": "MENORES-B",
+        "torneo2": "FEMENINO-A",
+        "hard": True
+    })
+    
+    # ------ REGLAS AYACUCHO ------
+    # Sarmiento y Ateneo Estrada deben cruzar
+    reglas.append({
+        "tipo": "INVERSO",
+        "clubA": "SARMIENTO AYACUCHO",
+        "clubB": "ATENEO ESTRADA",
+        "torneo1": "MAYORES-A",
+        "torneo2": "MAYORES-B",
+        "hard": True
+    })
+
     # Añadir las reglas explícitas viejas adaptadas
     for r in data.get("reglas", []):
         # Ej: "clubA": "Independiente", "clubB": "Independiente", "bloqueA": "MAYORES", "bloqueB": "FEM_MAYORES"
@@ -120,25 +155,26 @@ def migrate():
             t2 = map_bloque_to_torneo(r["bloqueB"], r["clubB"], clubes)
             if t1 and t2 and t1 != t2:
                 # Si una de las reglas viejas intentaba vincular MAYORES con FEMENINO la ignoramos 
-                # porque ya fue cubierta en la generación automática de arriba
+                # porque ya fue cubierta en la generación automática (y excepciones) de arriba
                 if "FEMENINO-A" in [t1, t2] and any("MAYORES" in t for t in [t1, t2]):
                     continue
                     
                 # Evitar duplicados
-                existe = any(x.get("club") == r["clubA"] and ((x["torneo1"] == t1 and x["torneo2"] == t2) or (x["torneo1"] == t2 and x["torneo2"] == t1)) for x in reglas)
+                existe = any(x.get("club") == r["clubA"] and ((x.get("torneo1") == t1 and x.get("torneo2") == t2) or (x.get("torneo1") == t2 and x.get("torneo2") == t1)) for x in reglas)
                 if not existe:
                     reglas.append({
                         "tipo": r["tipo"],
                         "club": r["clubA"],
                         "torneo1": t1,
-                        "torneo2": t2
+                        "torneo2": t2,
+                        "hard": r.get("hard", False)
                     })
         else:
             # Regla de estadios compartidos entre distintos clubes
             t1 = map_bloque_to_torneo(r["bloqueA"], r["clubA"], clubes)
             t2 = map_bloque_to_torneo(r["bloqueB"], r["clubB"], clubes)
             if t1 and t2:
-                # Evitar chocar con la automatizacion de Femenino de la misma institucion
+                # Evitar chocar con la automatizacion de Femenino
                 base_a = r["clubA"].split("(")[0].strip()
                 base_b = r["clubB"].split("(")[0].strip()
                 if base_a == base_b and "FEMENINO-A" in [t1, t2] and any("MAYORES" in t for t in [t1, t2]):
@@ -149,7 +185,8 @@ def migrate():
                     "clubA": r["clubA"],
                     "clubB": r["clubB"],
                     "torneo1": t1,
-                    "torneo2": t2
+                    "torneo2": t2,
+                    "hard": r.get("hard", False)
                 })
 
     # Aplicar la limpieza final (esquema unificado, sin duplicados, inyeccion de entidades)
@@ -193,7 +230,8 @@ def migrate():
             "equipo_origen": origen,
             "torneo_origen": t1,
             "equipo_destino": destino,
-            "torneo_destino": t2
+            "torneo_destino": t2,
+            "hard": r.get("hard", False)
         }
 
     reglas_limpias = list(firmas_vistas.values())
@@ -204,7 +242,8 @@ def migrate():
         "equipo_origen": "Alumni/Defensores",
         "torneo_origen": "MENORES-B",
         "equipo_destino": "Alumni",
-        "torneo_destino": "MAYORES-B"
+        "torneo_destino": "MAYORES-B",
+        "hard": True
     })
 
     nuevo_json = {
