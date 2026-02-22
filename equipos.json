@@ -1,0 +1,1681 @@
+{
+    "equipos": [
+        {
+            "nombre": "Loma Negra",
+            "localidad": "Villa Cacique",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Filadelfio Mondellio",
+            "jerarquia": 1
+        },
+        {
+            "nombre": "Loma Negra Inferiores",
+            "divisionMayor": "A",
+            "clubPadre": "Loma Negra",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": false,
+                "novena": false,
+                "decima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Filadelfio Mondellio",
+            "jerarquia": 1
+        },
+        {
+            "nombre": "Loma Negra",
+            "divisionMayor": "A",
+            "clubPadre": "Loma Negra",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": false,
+                "femenino_sub14": false,
+                "femenino_sub12": false
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Filadelfio Mondellio",
+            "jerarquia": 1
+        },
+        {
+            "nombre": "Independiente",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Agustin F Berroeta",
+            "jerarquia": 2
+        },
+        {
+            "nombre": "Independiente",
+            "divisionMayor": "A",
+            "clubPadre": "Independiente",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Agustin F Berroeta",
+            "jerarquia": 2
+        },
+        {
+            "nombre": "Juventud Unida",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": false,
+                "septima": true,
+                "octava": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Quinta La Florida",
+            "jerarquia": 8
+        },
+        {
+            "nombre": "Juventud Unida (Blanco)",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Figueroa",
+            "jerarquia": 8
+        },
+        {
+            "nombre": "Juventud Unida (Negro)",
+            "divisionMayor": "A",
+            "clubPadre": "Juventud Unida",
+            "categorias": {
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Quinta La Florida",
+            "jerarquia": 8
+        },
+        {
+            "nombre": "Juventud Unida",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Juve Stadium",
+            "jerarquia": 8
+        },
+        {
+            "nombre": "Santamarina",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Predio Centenario",
+            "jerarquia": 7
+        },
+        {
+            "nombre": "Santamarina",
+            "divisionMayor": "A",
+            "clubPadre": "Santamarina",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Predio Centenario",
+            "jerarquia": 7
+        },
+        {
+            "nombre": "Argentino",
+            "localidad": "Benito Juarez",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Doce de Noviembre",
+            "jerarquia": 3
+        },
+        {
+            "nombre": "Argentino",
+            "divisionMayor": "A",
+            "clubPadre": "Argentino",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": false,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Doce de Noviembre",
+            "jerarquia": 3
+        },
+        {
+            "nombre": "UNICEN",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "La Movediza",
+            "jerarquia": 4
+        },
+        {
+            "nombre": "San José",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Excursionistas",
+            "jerarquia": 9
+        },
+        {
+            "nombre": "San José",
+            "divisionMayor": "A",
+            "clubPadre": "San José",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Excursionistas",
+            "jerarquia": 9
+        },
+        {
+            "nombre": "San José",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Quinta La Florida",
+            "jerarquia": 9
+        },
+        {
+            "nombre": "Ferrocarril Sud",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Damaso Latasa",
+            "jerarquia": 10
+        },
+        {
+            "nombre": "Ferrocarril Sud",
+            "divisionMayor": "A",
+            "clubPadre": "Ferrocarril Sud",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Damaso Latasa",
+            "jerarquia": 10
+        },
+        {
+            "nombre": "Gimnasia y Esgrima",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Predio Jorge Ibañes",
+            "jerarquia": 6
+        },
+        {
+            "nombre": "Gimnasia y Esgrima",
+            "divisionMayor": "A",
+            "clubPadre": "Gimnasia y Esgrima",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Predio Jorge Ibañes",
+            "jerarquia": 6
+        },
+        {
+            "nombre": "Juarense",
+            "localidad": "Benito Juarez",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Gaston Lafon",
+            "jerarquia": 11
+        },
+        {
+            "nombre": "Juarense",
+            "divisionMayor": "A",
+            "clubPadre": "Juarense",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Gaston Lafon",
+            "jerarquia": 11
+        },
+        {
+            "nombre": "Excursionistas",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Excursionistas",
+            "jerarquia": 5
+        },
+        {
+            "nombre": "Excursionistas",
+            "divisionMayor": "A",
+            "clubPadre": "Excursionistas",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": false,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Excursionistas",
+            "jerarquia": 5
+        },
+        {
+            "nombre": "Deportivo Tandil",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Figueroa",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Deportivo Tandil",
+            "divisionMayor": "B",
+            "clubPadre": "Deportivo Tandil",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Figueroa",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Velense",
+            "localidad": "Vela",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Doc Miguel Ochoa",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Velense",
+            "divisionMayor": "B",
+            "clubPadre": "Velense",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": false,
+                "novena": true,
+                "decima": false,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Doc Miguel Ochoa",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Independiente (rojo)",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": false,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Agustin F Berroeta",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Unión y Progreso",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Quinta La Florida",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Oficina",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": false,
+                "sexta": false,
+                "septima": false,
+                "octava": false,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Predio Centenario",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Defensores del Cerro",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Figueroa",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Alumni",
+            "localidad": "Benito Juarez",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Ferroviarios",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Alumni / Defensores del Cerro",
+            "divisionMayor": "B",
+            "clubPadre": "Alumni",
+            "categorias": {
+                "quinta": true,
+                "sexta": false,
+                "septima": false,
+                "octava": false,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Ferroviarios",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Grupo Universitario",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true,
+                "quinta": true,
+                "sexta": false,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "La Movediza",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "SARMIENTO AYACUCHO",
+            "localidad": "Ayacucho",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Municipal Ayacucho",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "SARMIENTO AYACUCHO",
+            "divisionMayor": "C",
+            "clubPadre": "SARMIENTO AYACUCHO",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": false,
+                "decima": true,
+                "undecima": false
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Municipal Ayacucho",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "DEFENSORES DE AYACUCHO",
+            "localidad": "Ayacucho",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Defensores",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "DEFENSORES DE AYACUCHO",
+            "divisionMayor": "C",
+            "clubPadre": "DEFENSORES DE AYACUCHO",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Defensores",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "DEPORTIVO RAUCH",
+            "localidad": "Rauch",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Municipal rauch",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "ATENEO ESTRADA",
+            "localidad": "Ayacucho",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Municipal Ayacucho",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "ATENEO ESTRADA / Deportivo Rauch",
+            "divisionMayor": "C",
+            "clubPadre": "ATENEO ESTRADA",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": false,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Municipal Ayacucho",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "ATLETICO AYACUCHO",
+            "localidad": "Ayacucho",
+            "divisionMayor": "A",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Luciano Ceverio",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "ATLETICO AYACUCHO",
+            "divisionMayor": "C",
+            "clubPadre": "ATLETICO AYACUCHO",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Luciano Ceverio",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "ATLETICO AYACUCHO",
+            "divisionMayor": "A",
+            "clubPadre": "ATLETICO AYACUCHO",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": false
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Luciano Ceverio",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "SAN LORENZO (RAUCH)",
+            "localidad": "Rauch",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "SAN LORENZO Stadium",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "SAN LORENZO (RAUCH)",
+            "divisionMayor": "C",
+            "clubPadre": "SAN LORENZO (RAUCH)",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "SAN LORENZO Stadium",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "SAN LORENZO (RAUCH)",
+            "divisionMayor": "A",
+            "clubPadre": "SAN LORENZO (RAUCH)",
+            "categorias": {
+                "femenino_primera": false,
+                "femenino_sub16": true,
+                "femenino_sub14": false,
+                "femenino_sub12": false
+            },
+            "estadioPropio": true,
+            "estadioLocal": "SAN LORENZO Stadium",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "BOTAFOGO F.C.",
+            "localidad": "Rauch",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": true,
+                "reserva": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "BOTAFOGO F.C Stadium",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "BOTAFOGO F.C.",
+            "divisionMayor": "C",
+            "clubPadre": "BOTAFOGO F.C.",
+            "categorias": {
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": false,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "BOTAFOGO F.C Stadium",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "Ferro Azul",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": false,
+                "reserva": false,
+                "quinta": true,
+                "sexta": true,
+                "septima": true,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Damaso Latasa",
+            "jerarquia": 12
+        },
+        {
+            "nombre": "El Potrero",
+            "localidad": "Tandil",
+            "divisionMayor": "A",
+            "categorias": {
+                "femenino_primera": true,
+                "femenino_sub16": true,
+                "femenino_sub14": true,
+                "femenino_sub12": true
+            },
+            "estadioPropio": true,
+            "estadioLocal": "Boca de la Base",
+            "jerarquia": 2
+        },
+        {
+            "nombre": "Herederos",
+            "localidad": "Tandil",
+            "divisionMayor": "B",
+            "categorias": {
+                "primera": false,
+                "reserva": false,
+                "quinta": false,
+                "sexta": true,
+                "septima": false,
+                "octava": true,
+                "novena": true,
+                "decima": true,
+                "undecima": true
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Herederos Stadium",
+            "jerarquia": 0
+        }
+    ],
+    "reglas": [
+        {
+            "clubA": "Independiente",
+            "clubB": "Independiente",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Independiente",
+            "clubB": "Independiente",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Independiente",
+            "clubB": "Independiente",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Independiente",
+            "clubB": "Independiente",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Independiente (rojo)",
+            "clubB": "Independiente (rojo)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Independiente (rojo)",
+            "clubB": "Independiente (rojo)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Independiente (rojo)",
+            "clubB": "Independiente",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Independiente (rojo)",
+            "clubB": "Independiente",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Independiente (rojo)",
+            "clubB": "Independiente",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "BOTAFOGO F.C.",
+            "clubB": "BOTAFOGO F.C.",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "BOTAFOGO F.C.",
+            "clubB": "BOTAFOGO F.C.",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Ferrocarril Sud",
+            "clubB": "Ferrocarril Sud",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Ferrocarril Sud",
+            "clubB": "Ferrocarril Sud",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Ferrocarril Sud",
+            "clubB": "Ferrocarril Sud",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Ferrocarril Sud",
+            "clubB": "Ferrocarril Sud",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Ferro Azul",
+            "clubB": "Ferro Azul",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Ferro Azul",
+            "clubB": "Ferro Azul",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Ferro Azul",
+            "clubB": "Ferrocarril Sud",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Ferro Azul",
+            "clubB": "Ferrocarril Sud",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Ferro Azul",
+            "clubB": "Ferrocarril Sud",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "DEFENSORES DE AYACUCHO",
+            "clubB": "DEFENSORES DE AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "DEFENSORES DE AYACUCHO",
+            "clubB": "DEFENSORES DE AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Velense",
+            "clubB": "Velense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Velense",
+            "clubB": "Velense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Argentino",
+            "clubB": "Argentino",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Argentino",
+            "clubB": "Argentino",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "San José",
+            "clubB": "San José",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "San José",
+            "clubB": "San José",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Excursionistas",
+            "clubB": "Excursionistas",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Excursionistas",
+            "clubB": "Excursionistas",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Excursionistas",
+            "clubB": "Excursionistas",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Excursionistas",
+            "clubB": "Excursionistas",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "San José",
+            "clubB": "Excursionistas",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "San José",
+            "clubB": "Excursionistas",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "San José",
+            "clubB": "Excursionistas",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Alumni",
+            "clubB": "Alumni",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Alumni",
+            "clubB": "Alumni",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Alumni",
+            "clubB": "Defensores del Cerro",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Defensores del Cerro",
+            "clubB": "Defensores del Cerro",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Defensores del Cerro",
+            "clubB": "Defensores del Cerro",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Defensores del Cerro",
+            "clubB": "Juventud Unida (Blanco)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Defensores del Cerro",
+            "clubB": "Juventud Unida (Blanco)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juarense",
+            "clubB": "Juarense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juarense",
+            "clubB": "Juarense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Alumni",
+            "clubB": "Juarense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Defensores del Cerro",
+            "clubB": "Juarense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Juarense",
+            "clubB": "Juarense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Juarense",
+            "clubB": "Juarense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Deportivo Tandil",
+            "clubB": "Deportivo Tandil",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Deportivo Tandil",
+            "clubB": "Deportivo Tandil",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Deportivo Tandil",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Deportivo Tandil",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Deportivo Tandil",
+            "clubB": "Defensores del Cerro",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Loma Negra",
+            "clubB": "Loma Negra",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Loma Negra",
+            "clubB": "Loma Negra",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Loma Negra",
+            "clubB": "Loma Negra",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Loma Negra",
+            "clubB": "Loma Negra",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "UNICEN",
+            "clubB": "UNICEN",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "UNICEN",
+            "clubB": "UNICEN",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Grupo Universitario",
+            "clubB": "Grupo Universitario",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Grupo Universitario",
+            "clubB": "Grupo Universitario",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "UNICEN",
+            "clubB": "Grupo Universitario",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "ATLETICO AYACUCHO",
+            "clubB": "ATLETICO AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "ATLETICO AYACUCHO",
+            "clubB": "ATLETICO AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "ATLETICO AYACUCHO",
+            "clubB": "ATLETICO AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "ATLETICO AYACUCHO",
+            "clubB": "ATLETICO AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "SARMIENTO AYACUCHO",
+            "clubB": "SARMIENTO AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "SARMIENTO AYACUCHO",
+            "clubB": "SARMIENTO AYACUCHO",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "ATENEO ESTRADA",
+            "clubB": "ATENEO ESTRADA",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "ATENEO ESTRADA",
+            "clubB": "ATENEO ESTRADA",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "SARMIENTO AYACUCHO",
+            "clubB": "ATENEO ESTRADA",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "DEPORTIVO RAUCH",
+            "clubB": "ATENEO ESTRADA",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "DEPORTIVO RAUCH",
+            "clubB": "ATENEO ESTRADA",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Santamarina",
+            "clubB": "Santamarina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Santamarina",
+            "clubB": "Santamarina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Santamarina",
+            "clubB": "Santamarina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Santamarina",
+            "clubB": "Santamarina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Santamarina",
+            "clubB": "Oficina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Oficina",
+            "clubB": "Oficina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Oficina",
+            "clubB": "Oficina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Oficina",
+            "clubB": "Santamarina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Oficina",
+            "clubB": "Santamarina",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Gimnasia y Esgrima",
+            "clubB": "Gimnasia y Esgrima",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Gimnasia y Esgrima",
+            "clubB": "Gimnasia y Esgrima",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Gimnasia y Esgrima",
+            "clubB": "Gimnasia y Esgrima",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Gimnasia y Esgrima",
+            "clubB": "Gimnasia y Esgrima",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Juventud Unida",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juventud Unida",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juventud Unida",
+            "clubB": "San José",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juventud Unida",
+            "clubB": "San José",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juventud Unida",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juventud Unida",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Unión y Progreso",
+            "clubB": "Unión y Progreso",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Unión y Progreso",
+            "clubB": "Unión y Progreso",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Juventud Unida",
+            "clubB": "Unión y Progreso",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Unión y Progreso",
+            "clubB": "San José",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Unión y Progreso",
+            "clubB": "San José",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Unión y Progreso",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Unión y Progreso",
+            "clubB": "Juventud Unida",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "SAN LORENZO (RAUCH)",
+            "clubB": "SAN LORENZO (RAUCH)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "JUVENILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "SAN LORENZO (RAUCH)",
+            "clubB": "SAN LORENZO (RAUCH)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "SAN LORENZO (RAUCH)",
+            "clubB": "SAN LORENZO (RAUCH)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "SAN LORENZO (RAUCH)",
+            "clubB": "SAN LORENZO (RAUCH)",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Alumni",
+            "clubB": "Juarense",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
+            "tipo": "INVERSO",
+            "peso": 800
+        },
+        {
+            "clubA": "Loma Negra",
+            "clubB": "Loma Negra",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MAYORES",
+            "tipo": "ESPEJO",
+            "peso": 800
+        },
+        {
+            "clubA": "Loma Negra",
+            "clubB": "Loma Negra",
+            "bloqueA": "MAYORES",
+            "bloqueB": "FEM_MENORES",
+            "tipo": "ESPEJO",
+            "peso": 800
+        }
+    ]
+}
