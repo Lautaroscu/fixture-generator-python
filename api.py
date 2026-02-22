@@ -1,12 +1,16 @@
-from fastapi import FastAPI, BackgroundTasks, Query, HTTPException, Response
+from fastapi import FastAPI, BackgroundTasks, HTTPException, Query, Depends
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List, Optional, Set
+from typing import List, Optional, Set, Dict
 import uuid
-import time # Solo para el ejemplo de sleep
 import json
+import os
 from fixture_generator import FixtureGenerator
+from database import init_db, get_session
+from models import Club, Equipo, Regla, FechaFixture, PartidoFixture
+from sqlmodel import Session, select
+from migrate_json import migrate
 
 
 # ==========================================
@@ -60,75 +64,96 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Simulamos una "base de datos" en memoria para guardar el estado de los jobs
+@app.on_event("startup")
+def on_startup():
+    init_db()
+    print("Database initialized")
+
+# global para estados de jobs únicamente (esto podría ir a DB también, pero por ahora está bien aquí)
 jobs_status = {}
-fixtures_db = [] 
-equipos_db = []
-
-def init_db():
-    global equipos_db, fixtures_db
-    # Cargar equipos
-    try:
-        with open("equipos.json", "r", encoding="utf-8") as file:
-            data = json.load(file)
-            equipos_db = data.get("equipos", [])
-            print(f"Equipos cargados: {len(equipos_db)}")
-    except Exception as e:
-        print(f"Error loading equipos.json: {e}")
-        
-    # Cargar fixture generado previamente
-    try:
-        with open("fixture.json", "r", encoding="utf-8") as file:
-            fixtures_db = json.load(file)
-            print(f"Fixture cargado desde archivo: {len(fixtures_db)} fechas")
-    except Exception as e:
-        print(f"No se pudo cargar fixture.json (puede que no exista aún): {e}")
-
-init_db() 
 
 # ==========================================
 # 3. Función del proceso en Segundo Plano
 # ==========================================
 def proceso_ortools_async(job_id: str):
-    """
-    Simulación del proceso pesado de OR-Tools.
-    Acá llamarías a tu FixtureGenerator(equipos.json).solve()
-    """
-    print(f"[BACKGROUND] Iniciando trabajo {job_id}...")
+    print(f"[BACKGROUND] Iniciando job {job_id}...")
     
-    try:
-        generator = FixtureGenerator("equipos.json")
-        fechas, status_name = generator.solve()
+    with Session(engine) as session:
+        # 1. Cargamos datos de la DB
+        equipos_db = session.exec(select(Equipo)).all()
+        reglas_db = session.exec(select(Regla)).all()
         
-        # Guardamos en nuestra mini bd
-        if fechas is not None:
-            fixtures_db.clear()
-            fixtures_db.extend(fechas)
-            
-            # Persistimos a archivo también
-            try:
-                with open("fixture.json", "w", encoding="utf-8") as f:
-                    json.dump(fechas, f, indent=4, ensure_ascii=False)
-                print("[BACKGROUND] Fixture persistido en fixture.json")
-            except Exception as ef:
-                print(f"[BACKGROUND] Error al persistir fixture.json: {ef}")
+        # 2. Preparamos datos para el generador
+        # El generador espera nombres para las reglas, pero en DB tenemos IDs. 
+        # Vamos a mapearlos.
+        club_names = {c.id: c.nombre for c in session.exec(select(Club)).all()}
+        
+        reglas_formateadas = []
+        for r in reglas_db:
+            reglas_formateadas.append({
+                "clubA": club_names.get(r.club_a_id),
+                "clubB": club_names.get(r.club_b_id),
+                "bloqueA": r.bloque_a,
+                "bloqueB": r.bloque_b,
+                "tipo": r.tipo,
+                "peso": r.peso
+            })
 
-            jobs_status[job_id] = {
-                "status": "COMPLETED",
-                "message": f"Generación finalizada con éxito. Status: {status_name}"
-            }
-        else:
+        # 3. Generamos
+        try:
+            generator = FixtureGenerator(equipos_db, reglas_formateadas)
+            fechas, status = generator.solve()
+            
+            if fechas is not None:
+                # 4. Guardamos en la DB
+                # Limpiamos fixture anterior (opcional, dependiendo de lo que quiera el usuario)
+                # Por simplicidad, borramos todo y creamos nuevo
+                session.exec("DELETE FROM partidofixture")
+                session.exec("DELETE FROM fechafixture")
+                session.commit()
+                
+                # Mapeo de nombres de equipos a IDs de DB para los partidos
+                equipo_map = {e.nombre: e.id for e in equipos_db}
+                
+                for f_data in fechas:
+                    nueva_fecha = FechaFixture(
+                        nro_fecha=f_data["nroFecha"],
+                        liga=f_data["liga"]
+                    )
+                    session.add(nueva_fecha)
+                    session.flush() # Para obtener el ID de la fecha
+                    
+                    for p_data in f_data["partidos"]:
+                        local_id = equipo_map.get(p_data["local"])
+                        visitante_id = equipo_map.get(p_data["visitante"])
+                        
+                        if local_id and visitante_id:
+                            nuevo_partido = PartidoFixture(
+                                fecha_id=nueva_fecha.id,
+                                local_id=local_id,
+                                visitante_id=visitante_id,
+                                cancha=p_data.get("cancha")
+                            )
+                            session.add(nuevo_partido)
+                
+                session.commit()
+                print(f"[BACKGROUND] Fixture guardado en DB para job {job_id}")
+
+                jobs_status[job_id] = {
+                    "status": "COMPLETED",
+                    "message": f"Finalizado con éxito: {status}"
+                }
+            else:
+                jobs_status[job_id] = {
+                    "status": "FAILED",
+                    "message": f"No se pudo generar un fixture factible: {status}"
+                }
+        except Exception as e:
+            print(f"[BACKGROUND] Error en job {job_id}: {e}")
             jobs_status[job_id] = {
                 "status": "FAILED",
-                "message": f"No se encontró solución factible. Status: {status_name}"
+                "message": str(e)
             }
-            
-        print(f"[BACKGROUND] Trabajo {job_id} finalizado! Status: {status_name}")
-    except Exception as e:
-        jobs_status[job_id] = {
-            "status": "FAILED",
-            "message": f"Error: {str(e)}"
-        }
 
 # ==========================================
 # 4. Endpoints (Controllers)
@@ -170,49 +195,31 @@ async def consultar_estado(job_id: str):
         message=estado["message"]
     )
 
-def load_equipos_categorias():
+def get_equipos_categorias_db(session: Session):
     categorias_map = {}
-    try:
-        with open("equipos.json", "r", encoding="utf-8") as file:
-            data = json.load(file)
-            for eq in data.get("equipos", []):
-                nombre = eq["nombre"]
-                cats = eq.get("categorias", {})
-                if nombre not in categorias_map:
-                    categorias_map[nombre] = {}
-                # Mezclamos las categorías
-                for cat_name, habilitada in cats.items():
-                    if habilitada:
-                        categorias_map[nombre][cat_name] = True
-    except Exception as e:
-        print(f"Error loading equipos.json: {e}")
+    statement = select(Equipo)
+    equipos = session.exec(statement).all()
+    for eq in equipos:
+        nombre = eq.nombre
+        cats = eq.categorias or {}
+        if nombre not in categorias_map:
+            categorias_map[nombre] = {}
+        # Mezclamos las categorías
+        for cat_name, habilitada in cats.items():
+            if habilitada:
+                categorias_map[nombre][cat_name.upper()] = True
     return categorias_map
 
-@app.get("/fixture", response_model=List[FechaDTO])
-async def obtener_fixture(liga: str, categoria: str):
-    liga_key = liga.strip().upper()
-    categoria_key = categoria.strip().upper()
-    
-    cat_json_map = {
-        "PRIMERA": "primera",
-        "RESERVA": "reserva",
-        "QUINTA": "quinta",
-        "SEXTA": "sexta",
-        "SEPTIMA": "septima",
-        "OCTAVA": "octava",
-        "NOVENA": "novena",
-        "DECIMA": "decima",
-        "UNDECIMA": "undecima",
-        "FEM_PRIMERA": "femenino_primera",
-        "FEM_SUB14": "femenino_sub14",
-        "FEM_SUB16": "femenino_sub16",
-        "FEM_SUB12": "femenino_sub12"
-    }
-    
-    json_cat = cat_json_map.get(categoria_key)
-    if not json_cat:
-        return []
+@app.get("/fixture", response_model=List[Dict])
+def obtener_fixture(
+    liga: str = Query(..., description="A, B o C"),
+    categoria: str = Query(..., description="Nombre de la categoría (ej: PRIMERA, QUINTA)"),
+    session: Session = Depends(get_session)
+):
+    liga_key = liga.upper()
+    categoria_key = categoria.upper()
 
+    # Mapeo de categorías a divisiones del generador
     if categoria_key in ["PRIMERA", "RESERVA"]:
         target_div = f"MAYORES-{liga_key}"
     elif categoria_key in ["QUINTA", "SEXTA", "SEPTIMA", "OCTAVA"]:
@@ -226,47 +233,42 @@ async def obtener_fixture(liga: str, categoria: str):
     else:
         return []
 
-    equipos_categorias = load_equipos_categorias()
+    equipos_categorias = get_equipos_categorias_db(session)
     
-    # Leemos directamente del archivo para asegurar que los datos estén frescos
-    try:
-        with open("fixture.json", "r", encoding="utf-8") as f:
-            source_fixtures = json.load(f)
-    except Exception as e:
-        print(f"Error loading fixture.json: {e}")
-        source_fixtures = []
+    # Consultamos FechasFixture de la DB
+    statement = select(FechaFixture).where(FechaFixture.liga == target_div)
+    db_fechas = session.exec(statement).all()
 
     filtered_fechas = []
-    for f in source_fixtures:
-        if f["liga"] == target_div:
-            valid_partidos = []
-            for p in f.get("partidos", []):
-                local = p["local"]
-                visitante = p["visitante"]
-                
-                if local.startswith("Libre_") or visitante.startswith("Libre_"):
-                    continue
-                
-                local_categorias = equipos_categorias.get(local, {})
-                visit_categorias = equipos_categorias.get(visitante, {})
-                
-                if local_categorias.get(json_cat) and visit_categorias.get(json_cat):
-                    valid_partidos.append(p)
+    for f in db_fechas:
+        valid_partidos = []
+        for p in f.partidos:
+            local = p.equipo_local.nombre
+            visitante = p.equipo_visitante.nombre
             
-            if valid_partidos:
-                # Incluimos solo los partidos válidos (donde ambos tienen esta categoría)
-                filtered_fechas.append({
-                    "nroFecha": f["nroFecha"],
-                    "liga": f["liga"],
-                    "partidos": valid_partidos
+            local_cats = equipos_categorias.get(local, {})
+            visit_cats = equipos_categorias.get(visitante, {})
+            
+            if local_cats.get(categoria_key) and visit_cats.get(categoria_key):
+                valid_partidos.append({
+                    "local": local,
+                    "visitante": visitante,
+                    "cancha": p.cancha
                 })
+        
+        if valid_partidos:
+            filtered_fechas.append({
+                "nroFecha": f.nro_fecha,
+                "liga": f.liga,
+                "partidos": valid_partidos
+            })
                 
-    return filtered_fechas
+    return sorted(filtered_fechas, key=lambda x: x["nroFecha"])
 
 @app.get("/fixture/equipos", response_model=List[EquipoDTO])
-async def obtener_equipos():
-    if not equipos_db:
-        init_equipos_db()
+def obtener_equipos(session: Session = Depends(get_session)):
+    statement = select(Equipo)
+    db_equipos = session.exec(statement).all()
         
     resultado = []
     
@@ -278,13 +280,14 @@ async def obtener_equipos():
         "femenino_sub14": "FEM_SUB14", "femenino_sub12": "FEM_SUB12"
     }
     
-    for i, eq_json in enumerate(equipos_db):
-        nombre = eq_json.get("nombre", "Desconocido")
-        div_mayor_json = eq_json.get("divisionMayor", "A")
+    for eq in db_equipos:
+        nombre = eq.nombre
+        div_mayor = eq.division_mayor
+        club_nombre = eq.club.nombre if eq.club else None
         
         # Agrupamos las categorías válidas de ESE equipo por bloque usando KEYS de frontend
         blocks_found = {}
-        for cat, habilitada in eq_json.get("categorias", {}).items():
+        for cat, habilitada in (eq.categorias or {}).items():
             if habilitada:
                 dto_cat = cat_dto_map.get(cat, cat.upper())
                 if cat in ["primera", "reserva"]:
@@ -298,52 +301,42 @@ async def obtener_equipos():
                 elif cat in ["femenino_sub14", "femenino_sub12"]:
                     blocks_found.setdefault("FEM_MENORES", set()).add(dto_cat)
                     
-        # Generar un DTO independiente por cada bloque que abarca el equipo original
-        for b_idx, (b_name, b_cats) in enumerate(blocks_found.items()):
-            # Asignación de liga (divisionMayor)
-            if b_name in ["FEM_MAYORES", "FEM_MENORES"]:
-                division_mayor = "A"
-            elif b_name == "INFANTILES" and eq_json.get("divisionInfantiles"):
-                division_mayor = eq_json.get("divisionInfantiles").upper()
-            else:
-                division_mayor = div_mayor_json.upper()
-
+        # Generar un DTO independiente por cada bloque
+        for b_name, b_cats in blocks_found.items():
+            division_actual = div_mayor
+            if b_name == "INFANTILES" and eq.division_infantiles:
+                division_actual = eq.division_infantiles
+            
             # Asignación de días de juego
             if b_name in ["JUVENILES", "FEM_MAYORES", "FEM_MENORES"]:
                 dia_de_juego = "SABADO"
             else:
                 dia_de_juego = "DOMINGO"
 
-            # En caso de no tener ID en el JSON, generamos uno compuesto para los splits
-            base_id = eq_json.get("id", (i + 1) * 10)
-            equipo_id = base_id + b_idx
-            
             dto = EquipoDTO(
-                id=equipo_id,
+                id=eq.id,
                 nombre=nombre,
-                jerarquia=eq_json.get("jerarquia", 0),
+                jerarquia=eq.jerarquia,
                 bloque=b_name,
-                categoriasHabilitadas=b_cats,
-                clubId=None, 
-                clubNombre=eq_json.get("clubPadre", None),
-                divisionMayor=division_mayor,
+                categoriasHabilitadas=list(b_cats),
+                clubId=eq.club_id,
+                clubNombre=club_nombre,
+                divisionMayor=division_actual,
                 diaDeJuego=dia_de_juego
             )
             resultado.append(dto)
-            print(f"Equipo cargado - {nombre} => Bloque: {b_name} | {b_cats}")
             
     return resultado
 
 @app.get("/fixture/update-db")
-async def update_db() -> ResponseDTO:
+def update_db() -> ResponseDTO:
     try:
-        # dataInitializer.initDesdeJson()
-        return ResponseDTO(message="Base cargada correctamente", success=True)
+        migrate()
+        return ResponseDTO(message="Base de datos actualizada desde JSON", success=True)
     except Exception as e:
-        # En FastAPI podes retornar un error lanzando una excepción HTTP o retornando la clase y código 400
         return JSONResponse(
             status_code=400,
-            content={"message": str(e), "success": False}
+            content={"message": f"Error en migración: {str(e)}", "success": False}
         )
 
 @app.get("/fixture/ping", response_model=ResponseDTO)

@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: fixture-db
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: fixture_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - fixture-network
+
+  api:
+    build: .
+    container_name: fixture-api
+    restart: on-failure
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://user:password@db:5432/fixture_db
+    ports:
+      - "8000:8000"
+    networks:
+      - fixture-network
+
+networks:
+  fixture-network:
+    driver: bridge
+
+volumes:
+  postgres_data:

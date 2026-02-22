@@ -2,15 +2,37 @@ import json
 from ortools.sat.python import cp_model
 
 class FixtureGenerator:
-    def __init__(self, json_path):
-        with open(json_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            
+    def __init__(self, equipos_data: list, reglas_data: list = None):
+        # equipos_data: list of dicts (como en el JSON antiguo) o objetos Equipo de DB
         self.equipos = []
-        for eq_data in data.get("equipos", []):
-            self.equipos.append(eq_data)
+        for eq in equipos_data:
+            # Si es un objeto de base de datos (SQLModel), lo convertimos a dicc para compatibilidad
+            if hasattr(eq, "dict"):
+                eq_dict = eq.dict()
+                # Aseguramos clubPadre desde la relación si no está
+                if not eq_dict.get("clubPadre") and hasattr(eq, "club"):
+                    eq_dict["clubPadre"] = eq.club.nombre
+                self.equipos.append(eq_dict)
+            else:
+                self.equipos.append(eq)
             
-        self.reglas = data.get("reglas", [])
+        self.reglas = []
+        if reglas_data:
+            for r in reglas_data:
+                if hasattr(r, "dict"):
+                    r_dict = r.dict()
+                    # SQLModel usa snake_case, el generador esperaba camelCase
+                    # Mapeamos si es necesario
+                    self.reglas.append({
+                        "clubA": getattr(r, "club_a_nombre", r_dict.get("club_a_id")), # Necesitaremos nombres aquí
+                        "clubB": getattr(r, "club_b_nombre", r_dict.get("club_b_id")),
+                        "bloqueA": r_dict.get("bloque_a"),
+                        "bloqueB": r_dict.get("bloque_b"),
+                        "tipo": r_dict.get("tipo"),
+                        "peso": r_dict.get("peso", 500)
+                    })
+                else:
+                    self.reglas.append(r)
             
         self.divisiones = {}
         for eq in self.equipos:
@@ -359,11 +381,21 @@ class FixtureGenerator:
         return False
 
 if __name__ == "__main__":
-    generator = FixtureGenerator("equipos.json")
-    fechas, status = generator.solve()
-    print(f"Status: {status}. Fechas generadas: {len(fechas) if fechas else 0}")
-    
-    if fechas:
-        with open("fixture.json", "w", encoding="utf-8") as f:
-            json.dump(fechas, f, indent=4, ensure_ascii=False)
-        print("Fixture guardado en fixture.json")
+    import sys
+    json_path = "equipos.json"
+    if len(sys.argv) > 1:
+        json_path = sys.argv[1]
+        
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        generator = FixtureGenerator(data.get("equipos", []), data.get("reglas", []))
+        fechas, status = generator.solve()
+        print(f"Status: {status}. Fechas generadas: {len(fechas) if fechas else 0}")
+        
+        if fechas:
+            with open("fixture.json", "w", encoding="utf-8") as f:
+                json.dump(fechas, f, indent=4, ensure_ascii=False)
+            print("Fixture guardado en fixture.json")
+    except Exception as e:
+        print(f"Error: {e}")
