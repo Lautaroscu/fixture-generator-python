@@ -97,7 +97,11 @@ def proceso_ortools_async(job_id: str):
     print(f"[BACKGROUND] Iniciando trabajo {job_id}...")
     
     try:
-        generator = FixtureGenerator("equipos.json")
+        import convert_to_tiras
+        # Convertir configuración actual a formato de tiras optimizado
+        convert_to_tiras.migrate()
+        
+        generator = FixtureGenerator("equipos_tiras.json")
         fechas, status_name = generator.solve()
         
         # Guardamos en nuestra mini bd
@@ -216,13 +220,11 @@ async def obtener_fixture(liga: str, categoria: str):
     if categoria_key in ["PRIMERA", "RESERVA"]:
         target_div = f"MAYORES-{liga_key}"
     elif categoria_key in ["QUINTA", "SEXTA", "SEPTIMA", "OCTAVA"]:
-        target_div = f"JUVENILES-{liga_key}"
+        target_div = f"MENORES-{liga_key}"
     elif categoria_key in ["NOVENA", "DECIMA", "UNDECIMA"]:
-        target_div = f"INFANTILES-{liga_key}"
-    elif categoria_key in ["FEM_PRIMERA", "FEM_SUB16"]:
-        target_div = "FEMENINO MAYORES-A"
-    elif categoria_key in ["FEM_SUB14", "FEM_SUB12"]:
-        target_div = "FEMENINO MENORES-A"
+        target_div = f"MENORES-{liga_key}"
+    elif categoria_key in ["FEM_PRIMERA", "FEM_SUB16", "FEM_SUB14", "FEM_SUB12"]:
+        target_div = "FEMENINO-A"
     else:
         return []
 
@@ -244,14 +246,32 @@ async def obtener_fixture(liga: str, categoria: str):
                 local = p["local"]
                 visitante = p["visitante"]
                 
-                if local.startswith("Libre_") or visitante.startswith("Libre_"):
+                if local == "LIBRE" or visitante == "LIBRE":
+                    real_team = local if visitante == "LIBRE" else visitante
+                    if equipos_categorias.get(real_team, {}).get(json_cat):
+                        valid_partidos.append(p)
                     continue
                 
                 local_categorias = equipos_categorias.get(local, {})
                 visit_categorias = equipos_categorias.get(visitante, {})
                 
-                if local_categorias.get(json_cat) and visit_categorias.get(json_cat):
+                has_local = local_categorias.get(json_cat, False)
+                has_visit = visit_categorias.get(json_cat, False)
+                
+                if has_local and has_visit:
                     valid_partidos.append(p)
+                elif has_local and not has_visit:
+                    # El visitante no tiene la categoria, entonces el local queda LIBRE
+                    p_libre = p.copy()
+                    p_libre["visitante"] = "LIBRE"
+                    p_libre["cancha"] = ""
+                    valid_partidos.append(p_libre)
+                elif not has_local and has_visit:
+                    # El local no tiene la categoria, entonces el visitante queda LIBRE
+                    p_libre = p.copy()
+                    p_libre["local"] = "LIBRE"
+                    p_libre["cancha"] = ""
+                    valid_partidos.append(p_libre)
             
             if valid_partidos:
                 # Incluimos solo los partidos válidos (donde ambos tienen esta categoría)
