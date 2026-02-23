@@ -19,12 +19,12 @@ def verify_fixture():
 
     # Test 1: Oficina vs Santamarina (Femenino)
     # Regla: ESPEJO (Juegan juntos de local o de visitante)
-    # Oficina en MAYORES-B, Santamarina en FEMENINO-A
+    # Oficina en MAYORES-B, Santamarina en FEMENINO-MAYORES
     fallos_oficina = 0
-    print("\n--- TEST: OFICINA (MAYORES-B) vs SANTAMARINA (FEMENINO-A) [ESPEJO] ---")
+    print("\n--- TEST: OFICINA (MAYORES-B) vs SANTAMARINA (FEMENINO-MAYORES) [ESPEJO] ---")
     
     for nro, ligas in fechas.items():
-        if "MAYORES-B" not in ligas or "FEMENINO-A" not in ligas:
+        if "MAYORES-B" not in ligas or "FEMENINO-MAYORES" not in ligas:
             continue
             
         oficina_local = False
@@ -33,7 +33,7 @@ def verify_fixture():
         for p in ligas["MAYORES-B"]:
             if p["local"] == "Oficina": oficina_local = True
             
-        for p in ligas["FEMENINO-A"]:
+        for p in ligas["FEMENINO-MAYORES"]:
             if p["local"] == "Santamarina": santamarina_fem_local = True
             
         # Si ambos false (ambos de visitante) o ambos true (ambos de local) -> OK

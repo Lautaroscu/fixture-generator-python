@@ -13,7 +13,7 @@
             "jerarquia": 1
         },
         {
-            "nombre": "Loma Negra Inferiores",
+            "nombre": "Loma Negra",
             "divisionMayor": "A",
             "clubPadre": "Loma Negra",
             "categorias": {
@@ -519,17 +519,7 @@
             "divisionMayor": "B",
             "categorias": {
                 "primera": true,
-                "reserva": true
-            },
-            "estadioPropio": true,
-            "estadioLocal": "Ferroviarios",
-            "jerarquia": 0
-        },
-        {
-            "nombre": "Alumni / Defensores del Cerro",
-            "divisionMayor": "B",
-            "clubPadre": "Alumni",
-            "categorias": {
+                "reserva": true,
                 "quinta": true,
                 "sexta": false,
                 "septima": false,
@@ -637,17 +627,7 @@
             "divisionMayor": "B",
             "categorias": {
                 "primera": true,
-                "reserva": true
-            },
-            "estadioPropio": false,
-            "estadioLocal": "Municipal Ayacucho",
-            "jerarquia": 0
-        },
-        {
-            "nombre": "ATENEO ESTRADA / Deportivo Rauch",
-            "divisionMayor": "C",
-            "clubPadre": "ATENEO ESTRADA",
-            "categorias": {
+                "reserva": true,
                 "quinta": true,
                 "sexta": true,
                 "septima": true,
@@ -1120,30 +1100,6 @@
         {
             "clubA": "Alumni",
             "clubB": "Alumni",
-            "bloqueA": "MAYORES",
-            "bloqueB": "INFANTILES",
-            "tipo": "ESPEJO",
-            "peso": 500
-        },
-        {
-            "clubA": "Alumni",
-            "clubB": "Defensores del Cerro",
-            "bloqueA": "MAYORES",
-            "bloqueB": "MAYORES",
-            "tipo": "ESPEJO",
-            "peso": 500
-        },
-        {
-            "clubA": "Defensores del Cerro",
-            "clubB": "Defensores del Cerro",
-            "bloqueA": "MAYORES",
-            "bloqueB": "JUVENILES",
-            "tipo": "ESPEJO",
-            "peso": 500
-        },
-        {
-            "clubA": "Defensores del Cerro",
-            "clubB": "Defensores del Cerro",
             "bloqueA": "MAYORES",
             "bloqueB": "INFANTILES",
             "tipo": "ESPEJO",

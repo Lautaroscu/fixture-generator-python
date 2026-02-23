@@ -223,8 +223,10 @@ async def obtener_fixture(liga: str, categoria: str):
         target_div = f"MENORES-{liga_key}"
     elif categoria_key in ["NOVENA", "DECIMA", "UNDECIMA"]:
         target_div = f"MENORES-{liga_key}"
-    elif categoria_key in ["FEM_PRIMERA", "FEM_SUB16", "FEM_SUB14", "FEM_SUB12"]:
-        target_div = "FEMENINO-A"
+    elif categoria_key in ["FEM_PRIMERA", "FEM_SUB16"]:
+        target_div = "FEMENINO-MAYORES"
+    elif categoria_key in ["FEM_SUB14", "FEM_SUB12"]:
+        target_div = "FEMENINO-MENORES"
     else:
         return []
 

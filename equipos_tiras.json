@@ -2,7 +2,13 @@
     "clubes": [
         {
             "nombre": "Loma Negra",
-            "estadioLocal": "Filadelfio Mondellio",
+            "estadioLocal": {
+                "default": "Filadelfio Mondellio",
+                "MAYORES": "Filadelfio Mondellio",
+                "JUVENILES": "Filadelfio Mondellio",
+                "INFANTILES": "Filadelfio Mondellio",
+                "FEMENINO-A": "Filadelfio Mondellio"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -19,7 +25,13 @@
         },
         {
             "nombre": "Independiente",
-            "estadioLocal": "Agustin F Berroeta",
+            "estadioLocal": {
+                "default": "Agustin F Berroeta",
+                "MAYORES": "Agustin F Berroeta",
+                "JUVENILES": "Agustin F Berroeta",
+                "INFANTILES": "Agustin F Berroeta",
+                "FEMENINO-A": "Agustin F Berroeta"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -42,7 +54,13 @@
         },
         {
             "nombre": "Juventud Unida",
-            "estadioLocal": "Quinta La Florida",
+            "estadioLocal": {
+                "default": "Quinta La Florida",
+                "MAYORES": "Quinta La Florida",
+                "JUVENILES": "Quinta La Florida",
+                "FEMENINO-A": "Quinta La Florida",
+                "INFANTILES": "Juve Stadium"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "primera",
@@ -62,7 +80,10 @@
         },
         {
             "nombre": "Juventud Unida (Blanco)",
-            "estadioLocal": "Figueroa",
+            "estadioLocal": {
+                "default": "Figueroa",
+                "FEMENINO-A": "Figueroa"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "femenino_primera",
@@ -76,7 +97,13 @@
         },
         {
             "nombre": "Santamarina",
-            "estadioLocal": "Predio Centenario",
+            "estadioLocal": {
+                "default": "Predio Centenario",
+                "MAYORES": "Predio Centenario",
+                "JUVENILES": "Predio Centenario",
+                "INFANTILES": "Predio Centenario",
+                "FEMENINO-A": "Predio Centenario"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -99,7 +126,12 @@
         },
         {
             "nombre": "Argentino",
-            "estadioLocal": "Doce de Noviembre",
+            "estadioLocal": {
+                "default": "Doce de Noviembre",
+                "MAYORES": "Doce de Noviembre",
+                "JUVENILES": "Doce de Noviembre",
+                "INFANTILES": "Doce de Noviembre"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -116,7 +148,12 @@
         },
         {
             "nombre": "UNICEN",
-            "estadioLocal": "La Movediza",
+            "estadioLocal": {
+                "default": "La Movediza",
+                "MAYORES": "La Movediza",
+                "JUVENILES": "La Movediza",
+                "INFANTILES": "La Movediza"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -134,7 +171,13 @@
         },
         {
             "nombre": "San José",
-            "estadioLocal": "Excursionistas",
+            "estadioLocal": {
+                "default": "Excursionistas",
+                "MAYORES": "Excursionistas",
+                "JUVENILES": "Excursionistas",
+                "INFANTILES": "Excursionistas",
+                "FEMENINO-A": "Quinta La Florida"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "primera",
@@ -157,7 +200,13 @@
         },
         {
             "nombre": "Ferrocarril Sud",
-            "estadioLocal": "Damaso Latasa",
+            "estadioLocal": {
+                "default": "Damaso Latasa",
+                "MAYORES": "Damaso Latasa",
+                "JUVENILES": "Damaso Latasa",
+                "INFANTILES": "Damaso Latasa",
+                "FEMENINO-A": "Damaso Latasa"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -180,7 +229,13 @@
         },
         {
             "nombre": "Gimnasia y Esgrima",
-            "estadioLocal": "Predio Jorge Ibañes",
+            "estadioLocal": {
+                "default": "Predio Jorge Ibañes",
+                "MAYORES": "Predio Jorge Ibañes",
+                "JUVENILES": "Predio Jorge Ibañes",
+                "INFANTILES": "Predio Jorge Ibañes",
+                "FEMENINO-A": "Predio Jorge Ibañes"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -203,7 +258,13 @@
         },
         {
             "nombre": "Juarense",
-            "estadioLocal": "Gaston Lafon",
+            "estadioLocal": {
+                "default": "Gaston Lafon",
+                "MAYORES": "Gaston Lafon",
+                "JUVENILES": "Gaston Lafon",
+                "INFANTILES": "Gaston Lafon",
+                "FEMENINO-A": "Gaston Lafon"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -226,7 +287,13 @@
         },
         {
             "nombre": "Excursionistas",
-            "estadioLocal": "Excursionistas",
+            "estadioLocal": {
+                "default": "Excursionistas",
+                "MAYORES": "Excursionistas",
+                "JUVENILES": "Excursionistas",
+                "INFANTILES": "Excursionistas",
+                "FEMENINO-A": "Excursionistas"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -248,7 +315,12 @@
         },
         {
             "nombre": "Deportivo Tandil",
-            "estadioLocal": "Figueroa",
+            "estadioLocal": {
+                "default": "Figueroa",
+                "MAYORES": "Figueroa",
+                "JUVENILES": "Figueroa",
+                "INFANTILES": "Figueroa"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -266,7 +338,12 @@
         },
         {
             "nombre": "Velense",
-            "estadioLocal": "Doc Miguel Ochoa",
+            "estadioLocal": {
+                "default": "Doc Miguel Ochoa",
+                "MAYORES": "Doc Miguel Ochoa",
+                "JUVENILES": "Doc Miguel Ochoa",
+                "INFANTILES": "Doc Miguel Ochoa"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -282,7 +359,12 @@
         },
         {
             "nombre": "Independiente (rojo)",
-            "estadioLocal": "Agustin F Berroeta",
+            "estadioLocal": {
+                "default": "Agustin F Berroeta",
+                "MAYORES": "Agustin F Berroeta",
+                "JUVENILES": "Agustin F Berroeta",
+                "INFANTILES": "Agustin F Berroeta"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "reserva",
@@ -299,7 +381,12 @@
         },
         {
             "nombre": "Unión y Progreso",
-            "estadioLocal": "Quinta La Florida",
+            "estadioLocal": {
+                "default": "Quinta La Florida",
+                "MAYORES": "Quinta La Florida",
+                "JUVENILES": "Quinta La Florida",
+                "INFANTILES": "Quinta La Florida"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -317,7 +404,11 @@
         },
         {
             "nombre": "Oficina",
-            "estadioLocal": "Predio Centenario",
+            "estadioLocal": {
+                "default": "Predio Centenario",
+                "MAYORES": "Predio Centenario",
+                "INFANTILES": "Predio Centenario"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "primera",
@@ -331,7 +422,10 @@
         },
         {
             "nombre": "Defensores del Cerro",
-            "estadioLocal": "Figueroa",
+            "estadioLocal": {
+                "default": "Figueroa",
+                "MAYORES": "Figueroa"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "primera",
@@ -342,7 +436,12 @@
         },
         {
             "nombre": "Alumni",
-            "estadioLocal": "Ferroviarios",
+            "estadioLocal": {
+                "default": "Ferroviarios",
+                "MAYORES": "Ferroviarios",
+                "JUVENILES": "Ferroviarios",
+                "INFANTILES": "Ferroviarios"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -357,7 +456,12 @@
         },
         {
             "nombre": "Grupo Universitario",
-            "estadioLocal": "La Movediza",
+            "estadioLocal": {
+                "default": "La Movediza",
+                "MAYORES": "La Movediza",
+                "JUVENILES": "La Movediza",
+                "INFANTILES": "La Movediza"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "primera",
@@ -374,7 +478,12 @@
         },
         {
             "nombre": "SARMIENTO AYACUCHO",
-            "estadioLocal": "Municipal Ayacucho",
+            "estadioLocal": {
+                "default": "Municipal Ayacucho",
+                "MAYORES": "Municipal Ayacucho",
+                "JUVENILES": "Municipal Ayacucho",
+                "INFANTILES": "Municipal Ayacucho"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "primera",
@@ -390,7 +499,12 @@
         },
         {
             "nombre": "DEFENSORES DE AYACUCHO",
-            "estadioLocal": "Defensores",
+            "estadioLocal": {
+                "default": "Defensores",
+                "MAYORES": "Defensores",
+                "JUVENILES": "Defensores",
+                "INFANTILES": "Defensores"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -408,7 +522,10 @@
         },
         {
             "nombre": "DEPORTIVO RAUCH",
-            "estadioLocal": "Municipal rauch",
+            "estadioLocal": {
+                "default": "Municipal rauch",
+                "MAYORES": "Municipal rauch"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -419,7 +536,12 @@
         },
         {
             "nombre": "ATENEO ESTRADA",
-            "estadioLocal": "Municipal Ayacucho",
+            "estadioLocal": {
+                "default": "Municipal Ayacucho",
+                "MAYORES": "Municipal Ayacucho",
+                "JUVENILES": "Municipal Ayacucho",
+                "INFANTILES": "Municipal Ayacucho"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "primera",
@@ -432,11 +554,17 @@
                 "undecima"
             ],
             "division_mayores": "B",
-            "division_menores": "C"
+            "division_menores": "B"
         },
         {
             "nombre": "ATLETICO AYACUCHO",
-            "estadioLocal": "Luciano Ceverio",
+            "estadioLocal": {
+                "default": "Luciano Ceverio",
+                "MAYORES": "Luciano Ceverio",
+                "JUVENILES": "Luciano Ceverio",
+                "INFANTILES": "Luciano Ceverio",
+                "FEMENINO-A": "Luciano Ceverio"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -458,7 +586,13 @@
         },
         {
             "nombre": "SAN LORENZO (RAUCH)",
-            "estadioLocal": "SAN LORENZO Stadium",
+            "estadioLocal": {
+                "default": "SAN LORENZO Stadium",
+                "MAYORES": "SAN LORENZO Stadium",
+                "JUVENILES": "SAN LORENZO Stadium",
+                "INFANTILES": "SAN LORENZO Stadium",
+                "FEMENINO-A": "SAN LORENZO Stadium"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -478,7 +612,12 @@
         },
         {
             "nombre": "BOTAFOGO F.C.",
-            "estadioLocal": "BOTAFOGO F.C Stadium",
+            "estadioLocal": {
+                "default": "BOTAFOGO F.C Stadium",
+                "MAYORES": "BOTAFOGO F.C Stadium",
+                "JUVENILES": "BOTAFOGO F.C Stadium",
+                "INFANTILES": "BOTAFOGO F.C Stadium"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "primera",
@@ -495,7 +634,11 @@
         },
         {
             "nombre": "Ferro Azul",
-            "estadioLocal": "Damaso Latasa",
+            "estadioLocal": {
+                "default": "Damaso Latasa",
+                "JUVENILES": "Damaso Latasa",
+                "INFANTILES": "Damaso Latasa"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "quinta",
@@ -511,7 +654,10 @@
         },
         {
             "nombre": "El Potrero",
-            "estadioLocal": "Boca de la Base",
+            "estadioLocal": {
+                "default": "Boca de la Base",
+                "FEMENINO-A": "Boca de la Base"
+            },
             "estadioPropio": true,
             "categorias_activas": [
                 "femenino_primera",
@@ -525,7 +671,11 @@
         },
         {
             "nombre": "Herederos",
-            "estadioLocal": "Herederos Stadium",
+            "estadioLocal": {
+                "default": "Herederos Stadium",
+                "JUVENILES": "Herederos Stadium",
+                "INFANTILES": "Herederos Stadium"
+            },
             "estadioPropio": false,
             "categorias_activas": [
                 "sexta",
@@ -592,12 +742,11 @@
             ]
         },
         {
-            "id": "FEMENINO-A",
-            "nombre": "Tira Femenina - Liga A",
+            "id": "FEMENINO-MAYORES",
+            "nombre": "Femenino - Primera",
             "participantes": [
                 "Loma Negra",
                 "Independiente",
-                "Juventud Unida",
                 "Juventud Unida (Blanco)",
                 "Santamarina",
                 "San José",
@@ -629,6 +778,22 @@
             ]
         },
         {
+            "id": "FEMENINO-MENORES",
+            "nombre": "Femenino - Inferiores",
+            "participantes": [
+                "Independiente",
+                "Juventud Unida",
+                "Santamarina",
+                "San José",
+                "Ferrocarril Sud",
+                "Gimnasia y Esgrima",
+                "Juarense",
+                "Excursionistas",
+                "ATLETICO AYACUCHO",
+                "El Potrero"
+            ]
+        },
+        {
             "id": "MENORES-B",
             "nombre": "Tira Juveniles e Infantiles - Liga B",
             "participantes": [
@@ -640,6 +805,7 @@
                 "Oficina",
                 "Alumni",
                 "Grupo Universitario",
+                "ATENEO ESTRADA",
                 "Ferro Azul",
                 "Herederos",
                 "Alumni/Defensores"
@@ -651,7 +817,6 @@
             "participantes": [
                 "SARMIENTO AYACUCHO",
                 "DEFENSORES DE AYACUCHO",
-                "ATENEO ESTRADA",
                 "ATLETICO AYACUCHO",
                 "SAN LORENZO (RAUCH)",
                 "BOTAFOGO F.C."
@@ -672,7 +837,7 @@
             "equipo_origen": "Loma Negra",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Loma Negra",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -688,7 +853,15 @@
             "equipo_origen": "Independiente",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Independiente",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Independiente",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Independiente",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -704,7 +877,7 @@
             "equipo_origen": "Juventud Unida",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Juventud Unida",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -720,7 +893,15 @@
             "equipo_origen": "Santamarina",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Santamarina",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Santamarina",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Santamarina",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -752,7 +933,15 @@
             "equipo_origen": "San José",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "San José",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "San José",
+            "torneo_origen": "MAYORES-B",
+            "equipo_destino": "San José",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -768,7 +957,15 @@
             "equipo_origen": "Ferrocarril Sud",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Ferrocarril Sud",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Ferrocarril Sud",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Ferrocarril Sud",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -784,7 +981,15 @@
             "equipo_origen": "Gimnasia y Esgrima",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Gimnasia y Esgrima",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Gimnasia y Esgrima",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Gimnasia y Esgrima",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -800,7 +1005,15 @@
             "equipo_origen": "Juarense",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Juarense",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Juarense",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Juarense",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -816,7 +1029,15 @@
             "equipo_origen": "Excursionistas",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Excursionistas",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Excursionistas",
+            "torneo_origen": "MAYORES-B",
+            "equipo_destino": "Excursionistas",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -896,7 +1117,7 @@
             "equipo_origen": "ATENEO ESTRADA",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "ATENEO ESTRADA",
-            "torneo_destino": "MENORES-C",
+            "torneo_destino": "MENORES-B",
             "hard": false
         },
         {
@@ -912,7 +1133,15 @@
             "equipo_origen": "ATLETICO AYACUCHO",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "ATLETICO AYACUCHO",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "ATLETICO AYACUCHO",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "ATLETICO AYACUCHO",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -928,7 +1157,7 @@
             "equipo_origen": "SAN LORENZO (RAUCH)",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "SAN LORENZO (RAUCH)",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -944,7 +1173,15 @@
             "equipo_origen": "Independiente (rojo)",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Independiente",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "ESPEJO",
+            "equipo_origen": "Independiente (rojo)",
+            "torneo_origen": "MAYORES-B",
+            "equipo_destino": "Independiente",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -952,7 +1189,15 @@
             "equipo_origen": "Ferro Azul",
             "torneo_origen": "MENORES-B",
             "equipo_destino": "Ferrocarril Sud",
-            "torneo_destino": "FEMENINO-A",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
+            "tipo": "ESPEJO",
+            "equipo_origen": "Ferro Azul",
+            "torneo_origen": "MENORES-B",
+            "equipo_destino": "Ferrocarril Sud",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -981,30 +1226,6 @@
         },
         {
             "tipo": "INVERSO",
-            "equipo_origen": "San José",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "Excursionistas",
-            "torneo_destino": "FEMENINO-A",
-            "hard": false
-        },
-        {
-            "tipo": "ESPEJO",
-            "equipo_origen": "Alumni",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "Defensores del Cerro",
-            "torneo_destino": "MAYORES-B",
-            "hard": false
-        },
-        {
-            "tipo": "ESPEJO",
-            "equipo_origen": "Defensores del Cerro",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "Juventud Unida (Blanco)",
-            "torneo_destino": "FEMENINO-A",
-            "hard": false
-        },
-        {
-            "tipo": "INVERSO",
             "equipo_origen": "Alumni",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Juarense",
@@ -1023,16 +1244,16 @@
             "tipo": "INVERSO",
             "equipo_origen": "Deportivo Tandil",
             "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Juventud Unida",
-            "torneo_destino": "FEMENINO-A",
+            "equipo_destino": "Defensores del Cerro",
+            "torneo_destino": "MAYORES-B",
             "hard": false
         },
         {
-            "tipo": "INVERSO",
-            "equipo_origen": "Deportivo Tandil",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Defensores del Cerro",
-            "torneo_destino": "MAYORES-B",
+            "tipo": "ESPEJO",
+            "equipo_origen": "Loma Negra",
+            "torneo_origen": "MAYORES-B",
+            "equipo_destino": "Loma Negra",
+            "torneo_destino": "FEMENINO-MENORES",
             "hard": false
         },
         {
@@ -1048,7 +1269,7 @@
             "equipo_origen": "DEPORTIVO RAUCH",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "ATENEO ESTRADA",
-            "torneo_destino": "MENORES-C",
+            "torneo_destino": "MENORES-B",
             "hard": false
         },
         {
@@ -1061,18 +1282,10 @@
         },
         {
             "tipo": "ESPEJO",
-            "equipo_origen": "Oficina",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "Santamarina",
-            "torneo_destino": "FEMENINO-A",
-            "hard": false
-        },
-        {
-            "tipo": "ESPEJO",
             "equipo_origen": "Juventud Unida",
             "torneo_origen": "MAYORES-A",
-            "equipo_destino": "San José",
-            "torneo_destino": "FEMENINO-A",
+            "equipo_destino": "Juventud Unida",
+            "torneo_destino": "FEMENINO-MAYORES",
             "hard": false
         },
         {
@@ -1084,19 +1297,11 @@
             "hard": false
         },
         {
-            "tipo": "INVERSO",
-            "equipo_origen": "Unión y Progreso",
+            "tipo": "ESPEJO",
+            "equipo_origen": "SAN LORENZO (RAUCH)",
             "torneo_origen": "MAYORES-B",
-            "equipo_destino": "San José",
-            "torneo_destino": "FEMENINO-A",
-            "hard": false
-        },
-        {
-            "tipo": "INVERSO",
-            "equipo_origen": "Unión y Progreso",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "Juventud Unida",
-            "torneo_destino": "FEMENINO-A",
+            "equipo_destino": "SAN LORENZO (RAUCH)",
+            "torneo_destino": "FEMENINO-MAYORES",
             "hard": false
         },
         {

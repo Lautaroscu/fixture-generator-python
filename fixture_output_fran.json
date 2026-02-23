@@ -1,0 +1,4944 @@
+[
+    {
+        "competencia": "FEMENINO",
+        "fecha": 1,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 1,
+        "local": "El Potrero",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 1,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 1,
+        "local": "Independiente Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 1,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 1,
+        "local": "Loma Negra Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 2,
+        "local": "Excursionistas Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 2,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 2,
+        "local": "Independiente Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 2,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Juarense Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 2,
+        "local": "Loma Negra Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 2,
+        "local": "Santamarina Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 3,
+        "local": "Excursionistas Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 3,
+        "local": "Juarense Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 3,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 3,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "El Potrero",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 3,
+        "local": "San José Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 3,
+        "local": "Santamarina Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 4,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 4,
+        "local": "El Potrero",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 4,
+        "local": "Independiente Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 4,
+        "local": "Juarense Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 4,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "San José Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 4,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 5,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 5,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 5,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Independiente Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 5,
+        "local": "Loma Negra Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 5,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 5,
+        "local": "San José Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 6,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 6,
+        "local": "Excursionistas Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 6,
+        "local": "Juarense Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 6,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 6,
+        "local": "Loma Negra Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 6,
+        "local": "Santamarina Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 7,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 7,
+        "local": "Excursionistas Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 7,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 7,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 7,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 7,
+        "local": "San José Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 8,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 8,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 8,
+        "local": "Juarense Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 8,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 8,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 8,
+        "local": "San José Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 9,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 9,
+        "local": "El Potrero",
+        "visitante": "Juarense Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 9,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 9,
+        "local": "Independiente Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 9,
+        "local": "Loma Negra Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 9,
+        "local": "Santamarina Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 10,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 10,
+        "local": "Excursionistas Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 10,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 10,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 10,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 10,
+        "local": "San José Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 11,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 11,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 11,
+        "local": "Independiente Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 11,
+        "local": "Juarense Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 11,
+        "local": "Loma Negra Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 11,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 12,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 12,
+        "local": "El Potrero",
+        "visitante": "Independiente Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 12,
+        "local": "Excursionistas Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 12,
+        "local": "Juarense Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 12,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 12,
+        "local": "Loma Negra Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 13,
+        "local": "El Potrero",
+        "visitante": "San José Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 13,
+        "local": "Independiente Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 13,
+        "local": "Juarense Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 13,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 13,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 13,
+        "local": "Santamarina Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 14,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 14,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 14,
+        "local": "Independiente Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 14,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "El Potrero",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 14,
+        "local": "San José Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 14,
+        "local": "Santamarina Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 15,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 15,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 15,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 15,
+        "local": "Juarense Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 15,
+        "local": "Loma Negra Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 15,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 16,
+        "local": "El Potrero",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 16,
+        "local": "Excursionistas Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 16,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 16,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Independiente Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 16,
+        "local": "Loma Negra Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 16,
+        "local": "San José Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 17,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 17,
+        "local": "Independiente Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 17,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 17,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 17,
+        "local": "San José Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 17,
+        "local": "Santamarina Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 18,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 18,
+        "local": "El Potrero",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 18,
+        "local": "Juarense Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 18,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 18,
+        "local": "San José Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 18,
+        "local": "Santamarina Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 19,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 19,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 19,
+        "local": "Independiente Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 19,
+        "local": "Juarense Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 19,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 19,
+        "local": "Loma Negra Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 20,
+        "local": "El Potrero",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 20,
+        "local": "Excursionistas Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 20,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 20,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 20,
+        "local": "Independiente Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 20,
+        "local": "Santamarina Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 21,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 21,
+        "local": "El Potrero",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 21,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 21,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "San José Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 21,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 21,
+        "local": "Santamarina Femenino",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 22,
+        "local": "Excursionistas Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 22,
+        "local": "Juarense Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 22,
+        "local": "Juventud Unida Fem (Blanco)",
+        "visitante": "El Potrero",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 22,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 22,
+        "local": "Loma Negra Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 22,
+        "local": "San José Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 23,
+        "local": "El Potrero",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 23,
+        "local": "Excursionistas Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 23,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 23,
+        "local": "Independiente Femenino",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 23,
+        "local": "Juarense Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 23,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 24,
+        "local": "El Potrero",
+        "visitante": "Excursionistas Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 24,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 24,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "Loma Negra Femenino",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 24,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "Juarense Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 24,
+        "local": "San José Femenino",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 24,
+        "local": "Santamarina Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 25,
+        "local": "Excursionistas Femenino",
+        "visitante": "Santamarina Femenino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 25,
+        "local": "Gimnasia y Esgrima Femenino",
+        "visitante": "El Potrero",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 25,
+        "local": "Juventud Unida Fem (Negro)",
+        "visitante": "ATLETICO AYACUCHO Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 25,
+        "local": "Loma Negra Femenino",
+        "visitante": "Ferrocarril Sud Femenino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 25,
+        "local": "SAN LORENZO (RAUCH) Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 25,
+        "local": "San José Femenino",
+        "visitante": "Independiente Femenino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 26,
+        "local": "ATLETICO AYACUCHO Femenino",
+        "visitante": "Juventud Unida Fem (Negro)",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 26,
+        "local": "El Potrero",
+        "visitante": "Gimnasia y Esgrima Femenino",
+        "estadio": "Boca de la Base"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 26,
+        "local": "Excursionistas Femenino",
+        "visitante": "Juventud Unida Fem (Blanco)",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 26,
+        "local": "Ferrocarril Sud Femenino",
+        "visitante": "SAN LORENZO (RAUCH) Femenino",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 26,
+        "local": "Independiente Femenino",
+        "visitante": "San José Femenino",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "FEMENINO",
+        "fecha": 26,
+        "local": "Santamarina Femenino",
+        "visitante": "Juarense Femenino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 1,
+        "local": "Argentino Inferiores",
+        "visitante": "Juventud Unida",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 1,
+        "local": "Ferrocarril Sud",
+        "visitante": "Independiente",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 1,
+        "local": "Juarense",
+        "visitante": "San José Inferiores",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 1,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 1,
+        "local": "Santamarina",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 2,
+        "local": "Ferrocarril Sud",
+        "visitante": "Juventud Unida",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 2,
+        "local": "Juarense",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 2,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Independiente",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 2,
+        "local": "San José Inferiores",
+        "visitante": "Santamarina",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 2,
+        "local": "UNICEN",
+        "visitante": "Argentino Inferiores",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 3,
+        "local": "Argentino Inferiores",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 3,
+        "local": "Independiente",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 3,
+        "local": "Juventud Unida",
+        "visitante": "Juarense",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 3,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "UNICEN",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 3,
+        "local": "Santamarina",
+        "visitante": "San José Inferiores",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 4,
+        "local": "Ferrocarril Sud",
+        "visitante": "Juarense",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 4,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Juventud Unida",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 4,
+        "local": "Santamarina",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 4,
+        "local": "UNICEN",
+        "visitante": "Independiente",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 5,
+        "local": "Argentino Inferiores",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 5,
+        "local": "Independiente",
+        "visitante": "Juventud Unida",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 5,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Santamarina",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 5,
+        "local": "San José Inferiores",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 5,
+        "local": "UNICEN",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 6,
+        "local": "Argentino Inferiores",
+        "visitante": "Santamarina",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 6,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Juarense",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 6,
+        "local": "Independiente",
+        "visitante": "San José Inferiores",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 6,
+        "local": "Juventud Unida",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 6,
+        "local": "Loma Negra Inferiores",
+        "visitante": "UNICEN",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 7,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "UNICEN",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 7,
+        "local": "Juventud Unida",
+        "visitante": "San José Inferiores",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 7,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 7,
+        "local": "Santamarina",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 8,
+        "local": "Independiente",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 8,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 8,
+        "local": "San José Inferiores",
+        "visitante": "Juarense",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 9,
+        "local": "Argentino Inferiores",
+        "visitante": "Independiente",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 9,
+        "local": "Ferrocarril Sud",
+        "visitante": "Santamarina",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 9,
+        "local": "Juarense",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 9,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Juventud Unida",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 9,
+        "local": "San José Inferiores",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 10,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 10,
+        "local": "Juarense",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 10,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "San José Inferiores",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 10,
+        "local": "Santamarina",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 11,
+        "local": "Juventud Unida",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 11,
+        "local": "San José Inferiores",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 11,
+        "local": "Santamarina",
+        "visitante": "UNICEN",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 12,
+        "local": "Independiente",
+        "visitante": "Juarense",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 12,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Juventud Unida",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 12,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 13,
+        "local": "Ferrocarril Sud",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 13,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 13,
+        "local": "Independiente",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 13,
+        "local": "San José Inferiores",
+        "visitante": "Juventud Unida",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 13,
+        "local": "UNICEN",
+        "visitante": "Santamarina",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 14,
+        "local": "Argentino Inferiores",
+        "visitante": "UNICEN",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 14,
+        "local": "Ferrocarril Sud",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 14,
+        "local": "Juventud Unida",
+        "visitante": "Independiente",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 14,
+        "local": "San José Inferiores",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 15,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 15,
+        "local": "Juarense",
+        "visitante": "Juventud Unida",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 15,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 16,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 16,
+        "local": "Independiente",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 16,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 16,
+        "local": "Santamarina",
+        "visitante": "Juventud Unida",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 16,
+        "local": "UNICEN",
+        "visitante": "San José Inferiores",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 17,
+        "local": "Ferrocarril Sud",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 17,
+        "local": "Juarense",
+        "visitante": "UNICEN",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 17,
+        "local": "Juventud Unida",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 17,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Santamarina",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 17,
+        "local": "San José Inferiores",
+        "visitante": "Independiente",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 18,
+        "local": "Ferrocarril Sud",
+        "visitante": "UNICEN",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 18,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "San José Inferiores",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 18,
+        "local": "Independiente",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 18,
+        "local": "Juventud Unida",
+        "visitante": "Santamarina",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 18,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Juarense",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 19,
+        "local": "Loma Negra Inferiores",
+        "visitante": "Juarense",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 19,
+        "local": "San José Inferiores",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 19,
+        "local": "Santamarina",
+        "visitante": "Independiente",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 19,
+        "local": "UNICEN",
+        "visitante": "Juventud Unida",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 20,
+        "local": "Argentino Inferiores",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 20,
+        "local": "Juarense",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 20,
+        "local": "UNICEN",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 21,
+        "local": "Argentino Inferiores",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 21,
+        "local": "Ferrocarril Sud",
+        "visitante": "Juventud Unida Infantiles",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 21,
+        "local": "Independiente",
+        "visitante": "UNICEN",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 21,
+        "local": "Juarense",
+        "visitante": "Santamarina",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 22,
+        "local": "Juventud Unida",
+        "visitante": "UNICEN",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 22,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 22,
+        "local": "Loma Negra Inferiores",
+        "visitante": "San José Inferiores",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 22,
+        "local": "Santamarina",
+        "visitante": "Juarense",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 23,
+        "local": "Argentino Inferiores",
+        "visitante": "Juarense",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 23,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Independiente",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 23,
+        "local": "UNICEN",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 24,
+        "local": "Independiente",
+        "visitante": "Santamarina",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 24,
+        "local": "Juarense",
+        "visitante": "Loma Negra Inferiores",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 24,
+        "local": "Juventud Unida",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 24,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 24,
+        "local": "San José Inferiores",
+        "visitante": "UNICEN",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 25,
+        "local": "Ferrocarril Sud",
+        "visitante": "San José Inferiores",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 25,
+        "local": "Juventud Unida",
+        "visitante": "Argentino Inferiores",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 25,
+        "local": "Juventud Unida Infantiles",
+        "visitante": "Independiente",
+        "estadio": "Juve Stadium"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 25,
+        "local": "Santamarina",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 25,
+        "local": "UNICEN",
+        "visitante": "Juarense",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 26,
+        "local": "Argentino Inferiores",
+        "visitante": "San José Inferiores",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 26,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Santamarina",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 26,
+        "local": "Juarense",
+        "visitante": "Independiente",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "INF_A",
+        "fecha": 26,
+        "local": "UNICEN",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 1,
+        "local": "Excursionistas",
+        "visitante": "Oficina",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 1,
+        "local": "Ferro Azul",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 1,
+        "local": "Independiente (rojo)",
+        "visitante": "Velense Inferiores",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 1,
+        "local": "Unión y Progreso",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 2,
+        "local": "Excursionistas",
+        "visitante": "Herederos",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 2,
+        "local": "Independiente (rojo)",
+        "visitante": "Grupo Universitario",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 2,
+        "local": "Unión y Progreso",
+        "visitante": "Ferro Azul",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 2,
+        "local": "Velense Inferiores",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 3,
+        "local": "Alumni Inferiores",
+        "visitante": "Ferro Azul",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 3,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Unión y Progreso",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 3,
+        "local": "Grupo Universitario",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 3,
+        "local": "Herederos",
+        "visitante": "Velense Inferiores",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 3,
+        "local": "Oficina",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 4,
+        "local": "Alumni Inferiores",
+        "visitante": "Velense Inferiores",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 4,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Excursionistas",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 4,
+        "local": "Independiente (rojo)",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 4,
+        "local": "Unión y Progreso",
+        "visitante": "Oficina",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 5,
+        "local": "Ferro Azul",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 5,
+        "local": "Herederos",
+        "visitante": "Grupo Universitario",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 5,
+        "local": "Unión y Progreso",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 5,
+        "local": "Velense Inferiores",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 6,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Velense Inferiores",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 6,
+        "local": "Excursionistas",
+        "visitante": "Unión y Progreso",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 6,
+        "local": "Grupo Universitario",
+        "visitante": "Ferro Azul",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 6,
+        "local": "Herederos",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 6,
+        "local": "Oficina",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 7,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 7,
+        "local": "Excursionistas",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 7,
+        "local": "Grupo Universitario",
+        "visitante": "Oficina",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 8,
+        "local": "Alumni Inferiores",
+        "visitante": "Oficina",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 8,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 8,
+        "local": "Ferro Azul",
+        "visitante": "Unión y Progreso",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 8,
+        "local": "Grupo Universitario",
+        "visitante": "Excursionistas",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 8,
+        "local": "Velense Inferiores",
+        "visitante": "Herederos",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 9,
+        "local": "Herederos",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 9,
+        "local": "Independiente (rojo)",
+        "visitante": "Excursionistas",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 9,
+        "local": "Oficina",
+        "visitante": "Ferro Azul",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 9,
+        "local": "Unión y Progreso",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 9,
+        "local": "Velense Inferiores",
+        "visitante": "Grupo Universitario",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 10,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Herederos",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 10,
+        "local": "Ferro Azul",
+        "visitante": "Velense Inferiores",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 10,
+        "local": "Independiente (rojo)",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 11,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Oficina",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 11,
+        "local": "Grupo Universitario",
+        "visitante": "Herederos",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 11,
+        "local": "Unión y Progreso",
+        "visitante": "Excursionistas",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 12,
+        "local": "Alumni Inferiores",
+        "visitante": "Grupo Universitario",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 12,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Ferro Azul",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 12,
+        "local": "Excursionistas",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 12,
+        "local": "Unión y Progreso",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 12,
+        "local": "Velense Inferiores",
+        "visitante": "Oficina",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 13,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Velense Inferiores",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 13,
+        "local": "Independiente (rojo)",
+        "visitante": "Ferro Azul",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 13,
+        "local": "Unión y Progreso",
+        "visitante": "Grupo Universitario",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 14,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 14,
+        "local": "Independiente (rojo)",
+        "visitante": "Unión y Progreso",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 14,
+        "local": "Oficina",
+        "visitante": "Excursionistas",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 14,
+        "local": "Velense Inferiores",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 15,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 15,
+        "local": "Ferro Azul",
+        "visitante": "Oficina",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 15,
+        "local": "Grupo Universitario",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 15,
+        "local": "Herederos",
+        "visitante": "Excursionistas",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 15,
+        "local": "Unión y Progreso",
+        "visitante": "Velense Inferiores",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 16,
+        "local": "Alumni Inferiores",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 16,
+        "local": "Excursionistas",
+        "visitante": "Velense Inferiores",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 16,
+        "local": "Ferro Azul",
+        "visitante": "Grupo Universitario",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 16,
+        "local": "Herederos",
+        "visitante": "Unión y Progreso",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 17,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Herederos",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 17,
+        "local": "Grupo Universitario",
+        "visitante": "Unión y Progreso",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 17,
+        "local": "Independiente (rojo)",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 17,
+        "local": "Oficina",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 17,
+        "local": "Velense Inferiores",
+        "visitante": "Ferro Azul",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 18,
+        "local": "Alumni Inferiores",
+        "visitante": "Excursionistas",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 18,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Ferro Azul",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 18,
+        "local": "Herederos",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 18,
+        "local": "Oficina",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 18,
+        "local": "Velense Inferiores",
+        "visitante": "Unión y Progreso",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 19,
+        "local": "Alumni Inferiores",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 19,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Grupo Universitario",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 19,
+        "local": "Ferro Azul",
+        "visitante": "Excursionistas",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 19,
+        "local": "Independiente (rojo)",
+        "visitante": "Oficina",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 19,
+        "local": "Unión y Progreso",
+        "visitante": "Herederos",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 20,
+        "local": "Excursionistas",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 20,
+        "local": "Ferro Azul",
+        "visitante": "Herederos",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 20,
+        "local": "Velense Inferiores",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 21,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Excursionistas",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 21,
+        "local": "Grupo Universitario",
+        "visitante": "Velense Inferiores",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 21,
+        "local": "Herederos",
+        "visitante": "Ferro Azul",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 21,
+        "local": "Oficina",
+        "visitante": "Unión y Progreso",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 22,
+        "local": "Alumni Inferiores",
+        "visitante": "Unión y Progreso",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 22,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Oficina",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 22,
+        "local": "Excursionistas",
+        "visitante": "Ferro Azul",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 22,
+        "local": "Grupo Universitario",
+        "visitante": "Independiente (rojo)",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 22,
+        "local": "Herederos",
+        "visitante": "Deportivo Tandil Inferiores",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 23,
+        "local": "Alumni Inferiores",
+        "visitante": "Herederos",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 23,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 23,
+        "local": "Oficina",
+        "visitante": "Grupo Universitario",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 24,
+        "local": "Defensores del Cerro Inferiores",
+        "visitante": "Unión y Progreso",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 24,
+        "local": "Ferro Azul",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 24,
+        "local": "Grupo Universitario",
+        "visitante": "Alumni Inferiores",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 24,
+        "local": "Oficina",
+        "visitante": "Herederos",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 24,
+        "local": "Velense Inferiores",
+        "visitante": "Excursionistas",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 25,
+        "local": "Alumni Inferiores",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 25,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Independiente (rojo)",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 25,
+        "local": "Excursionistas",
+        "visitante": "Grupo Universitario",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 25,
+        "local": "Herederos",
+        "visitante": "Oficina",
+        "estadio": "Herederos Stadium"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 26,
+        "local": "Deportivo Tandil Inferiores",
+        "visitante": "Grupo Universitario",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 26,
+        "local": "Excursionistas",
+        "visitante": "Alumni Inferiores",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 26,
+        "local": "Ferro Azul",
+        "visitante": "Defensores del Cerro Inferiores",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 26,
+        "local": "Independiente (rojo)",
+        "visitante": "Herederos",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "INF_B",
+        "fecha": 26,
+        "local": "Oficina",
+        "visitante": "Velense Inferiores",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 1,
+        "local": "ATLETICO AYACUCHO Inferiores",
+        "visitante": "ATENEO ESTRADA Inferiores",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 1,
+        "local": "SARMIENTO (AYACUCHO) Inferiores",
+        "visitante": "SAN LORENZO (RAUCH) Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 2,
+        "local": "ATENEO ESTRADA Inferiores",
+        "visitante": "DEPORTIVO RAUCH Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 2,
+        "local": "ATLETICO AYACUCHO Inferiores",
+        "visitante": "DEFENSORES DE AYACUCHO Inferiores",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 4,
+        "local": "SAN LORENZO (RAUCH) Inferiores",
+        "visitante": "DEPORTIVO RAUCH Inferiores",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 5,
+        "local": "DEPORTIVO RAUCH Inferiores",
+        "visitante": "ATENEO ESTRADA Inferiores",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 6,
+        "local": "DEFENSORES DE AYACUCHO Inferiores",
+        "visitante": "ATLETICO AYACUCHO Inferiores",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 7,
+        "local": "DEPORTIVO RAUCH Inferiores",
+        "visitante": "ATLETICO AYACUCHO Inferiores",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 7,
+        "local": "SAN LORENZO (RAUCH) Inferiores",
+        "visitante": "DEFENSORES DE AYACUCHO Inferiores",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 8,
+        "local": "ATENEO ESTRADA Inferiores",
+        "visitante": "BOTAFOGO F.C. Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 8,
+        "local": "ATLETICO AYACUCHO Inferiores",
+        "visitante": "DEPORTIVO RAUCH Inferiores",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 9,
+        "local": "SARMIENTO (AYACUCHO) Inferiores",
+        "visitante": "ATLETICO AYACUCHO Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 10,
+        "local": "ATENEO ESTRADA Inferiores",
+        "visitante": "ATLETICO AYACUCHO Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 10,
+        "local": "DEPORTIVO RAUCH Inferiores",
+        "visitante": "SARMIENTO (AYACUCHO) Inferiores",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 11,
+        "local": "SARMIENTO (AYACUCHO) Inferiores",
+        "visitante": "DEFENSORES DE AYACUCHO Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 12,
+        "local": "ATENEO ESTRADA Inferiores",
+        "visitante": "SARMIENTO (AYACUCHO) Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 13,
+        "local": "DEFENSORES DE AYACUCHO Inferiores",
+        "visitante": "ATENEO ESTRADA Inferiores",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 13,
+        "local": "SARMIENTO (AYACUCHO) Inferiores",
+        "visitante": "BOTAFOGO F.C. Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 14,
+        "local": "ATENEO ESTRADA Inferiores",
+        "visitante": "DEFENSORES DE AYACUCHO Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 14,
+        "local": "BOTAFOGO F.C. Inferiores",
+        "visitante": "SARMIENTO (AYACUCHO) Inferiores",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 14,
+        "local": "DEPORTIVO RAUCH Inferiores",
+        "visitante": "SAN LORENZO (RAUCH) Inferiores",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 15,
+        "local": "DEFENSORES DE AYACUCHO Inferiores",
+        "visitante": "BOTAFOGO F.C. Inferiores",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 15,
+        "local": "SAN LORENZO (RAUCH) Inferiores",
+        "visitante": "ATENEO ESTRADA Inferiores",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 15,
+        "local": "SARMIENTO (AYACUCHO) Inferiores",
+        "visitante": "DEPORTIVO RAUCH Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 16,
+        "local": "ATENEO ESTRADA Inferiores",
+        "visitante": "SAN LORENZO (RAUCH) Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 16,
+        "local": "ATLETICO AYACUCHO Inferiores",
+        "visitante": "SARMIENTO (AYACUCHO) Inferiores",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 17,
+        "local": "DEFENSORES DE AYACUCHO Inferiores",
+        "visitante": "SAN LORENZO (RAUCH) Inferiores",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 18,
+        "local": "DEPORTIVO RAUCH Inferiores",
+        "visitante": "DEFENSORES DE AYACUCHO Inferiores",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 18,
+        "local": "SAN LORENZO (RAUCH) Inferiores",
+        "visitante": "BOTAFOGO F.C. Inferiores",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 19,
+        "local": "BOTAFOGO F.C. Inferiores",
+        "visitante": "ATLETICO AYACUCHO Inferiores",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 20,
+        "local": "BOTAFOGO F.C. Inferiores",
+        "visitante": "ATENEO ESTRADA Inferiores",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 21,
+        "local": "DEPORTIVO RAUCH Inferiores",
+        "visitante": "BOTAFOGO F.C. Inferiores",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 21,
+        "local": "SAN LORENZO (RAUCH) Inferiores",
+        "visitante": "ATLETICO AYACUCHO Inferiores",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 21,
+        "local": "SARMIENTO (AYACUCHO) Inferiores",
+        "visitante": "ATENEO ESTRADA Inferiores",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 22,
+        "local": "BOTAFOGO F.C. Inferiores",
+        "visitante": "SAN LORENZO (RAUCH) Inferiores",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 22,
+        "local": "DEFENSORES DE AYACUCHO Inferiores",
+        "visitante": "SARMIENTO (AYACUCHO) Inferiores",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 23,
+        "local": "BOTAFOGO F.C. Inferiores",
+        "visitante": "DEPORTIVO RAUCH Inferiores",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 24,
+        "local": "ATLETICO AYACUCHO Inferiores",
+        "visitante": "BOTAFOGO F.C. Inferiores",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 25,
+        "local": "BOTAFOGO F.C. Inferiores",
+        "visitante": "DEFENSORES DE AYACUCHO Inferiores",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 25,
+        "local": "SAN LORENZO (RAUCH) Inferiores",
+        "visitante": "SARMIENTO (AYACUCHO) Inferiores",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 26,
+        "local": "ATLETICO AYACUCHO Inferiores",
+        "visitante": "SAN LORENZO (RAUCH) Inferiores",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "INF_C",
+        "fecha": 26,
+        "local": "DEFENSORES DE AYACUCHO Inferiores",
+        "visitante": "DEPORTIVO RAUCH Inferiores",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 1,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Velense",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 1,
+        "local": "Juarense",
+        "visitante": "Independiente",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 1,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "UNICEN",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 1,
+        "local": "Santamarina",
+        "visitante": "Juventud Unida",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 2,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Santamarina",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 2,
+        "local": "Ferrocarril Sud",
+        "visitante": "Independiente",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 2,
+        "local": "Juarense",
+        "visitante": "Juventud Unida",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 2,
+        "local": "UNICEN",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 2,
+        "local": "Velense",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 3,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "UNICEN",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 3,
+        "local": "Deportivo Tandil",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 3,
+        "local": "Independiente",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 3,
+        "local": "Juventud Unida",
+        "visitante": "Velense",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 3,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Juarense",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 4,
+        "local": "Ferrocarril Sud",
+        "visitante": "Juventud Unida",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 4,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 4,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Independiente",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 4,
+        "local": "Santamarina",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 4,
+        "local": "UNICEN",
+        "visitante": "Juarense",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 5,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 5,
+        "local": "Independiente",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 5,
+        "local": "Juarense",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 5,
+        "local": "UNICEN",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 6,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Santamarina",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 6,
+        "local": "Deportivo Tandil",
+        "visitante": "Velense",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 6,
+        "local": "Ferrocarril Sud",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 6,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 6,
+        "local": "Independiente",
+        "visitante": "UNICEN",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 6,
+        "local": "Juventud Unida",
+        "visitante": "Juarense",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 7,
+        "local": "Ferrocarril Sud",
+        "visitante": "Velense",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 7,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "UNICEN",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 7,
+        "local": "Juventud Unida",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 7,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 7,
+        "local": "Santamarina",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 8,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Juarense",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 8,
+        "local": "Independiente",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 8,
+        "local": "Juventud Unida",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 8,
+        "local": "Santamarina",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 8,
+        "local": "Velense",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 9,
+        "local": "Deportivo Tandil",
+        "visitante": "Juventud Unida",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 9,
+        "local": "Ferrocarril Sud",
+        "visitante": "Santamarina",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 9,
+        "local": "Juarense",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 9,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 9,
+        "local": "UNICEN",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 9,
+        "local": "Velense",
+        "visitante": "Independiente",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 10,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Independiente",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 10,
+        "local": "Deportivo Tandil",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 10,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Velense",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 10,
+        "local": "Juarense",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 10,
+        "local": "Juventud Unida",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 10,
+        "local": "Santamarina",
+        "visitante": "UNICEN",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 11,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 11,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 11,
+        "local": "Santamarina",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 11,
+        "local": "Velense",
+        "visitante": "UNICEN",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 12,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 12,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 12,
+        "local": "Independiente",
+        "visitante": "Juarense",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 12,
+        "local": "UNICEN",
+        "visitante": "Juventud Unida",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 12,
+        "local": "Velense",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 13,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 13,
+        "local": "Ferrocarril Sud",
+        "visitante": "Juarense",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 13,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Santamarina",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 13,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Juventud Unida",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 13,
+        "local": "UNICEN",
+        "visitante": "Velense",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 14,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 14,
+        "local": "Deportivo Tandil",
+        "visitante": "UNICEN",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 14,
+        "local": "Juarense",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 14,
+        "local": "Juventud Unida",
+        "visitante": "Independiente",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 14,
+        "local": "Velense",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 15,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 15,
+        "local": "Independiente",
+        "visitante": "Juventud Unida",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 15,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Velense",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 15,
+        "local": "Santamarina",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 16,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 16,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 16,
+        "local": "Independiente",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 16,
+        "local": "Santamarina",
+        "visitante": "Velense",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 16,
+        "local": "UNICEN",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 17,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Independiente",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 17,
+        "local": "Ferrocarril Sud",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 17,
+        "local": "Juarense",
+        "visitante": "UNICEN",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 17,
+        "local": "Juventud Unida",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 17,
+        "local": "Velense",
+        "visitante": "Santamarina",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 18,
+        "local": "Deportivo Tandil",
+        "visitante": "Santamarina",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 18,
+        "local": "Ferrocarril Sud",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 18,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Juarense",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 18,
+        "local": "Independiente",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 18,
+        "local": "Juventud Unida",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 19,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Juarense",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 19,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 19,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 19,
+        "local": "Santamarina",
+        "visitante": "Independiente",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 19,
+        "local": "UNICEN",
+        "visitante": "Deportivo Tandil",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 19,
+        "local": "Velense",
+        "visitante": "Juventud Unida",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 20,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Juventud Unida",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 20,
+        "local": "Deportivo Tandil",
+        "visitante": "Independiente",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 20,
+        "local": "Juarense",
+        "visitante": "Santamarina",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 20,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 20,
+        "local": "UNICEN",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 20,
+        "local": "Velense",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 21,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 21,
+        "local": "Deportivo Tandil",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 21,
+        "local": "Ferrocarril Sud",
+        "visitante": "UNICEN",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 21,
+        "local": "Independiente",
+        "visitante": "Santamarina",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 21,
+        "local": "Juarense",
+        "visitante": "Velense",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 22,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "ATLETICO AYACUCHO",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 22,
+        "local": "Ferrocarril Sud",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 22,
+        "local": "Independiente",
+        "visitante": "Velense",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 22,
+        "local": "Juventud Unida",
+        "visitante": "UNICEN",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 22,
+        "local": "Santamarina",
+        "visitante": "Juarense",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 23,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 23,
+        "local": "Deportivo Tandil",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 23,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Juventud Unida",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 23,
+        "local": "SARMIENTO (AYACUCHO)",
+        "visitante": "Santamarina",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 23,
+        "local": "UNICEN",
+        "visitante": "Independiente",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 23,
+        "local": "Velense",
+        "visitante": "Juarense",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 24,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "UNICEN",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 24,
+        "local": "Independiente",
+        "visitante": "Deportivo Tandil",
+        "estadio": "Agustin F Berroeta"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 24,
+        "local": "Juarense",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 24,
+        "local": "Juventud Unida",
+        "visitante": "Santamarina",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 24,
+        "local": "Velense",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Doc Miguel Ochoa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 25,
+        "local": "ATLETICO AYACUCHO",
+        "visitante": "Velense",
+        "estadio": "Luciano Ceverio"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 25,
+        "local": "Deportivo Tandil",
+        "visitante": "Juarense",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 25,
+        "local": "Ferrocarril Sud",
+        "visitante": "Gimnasia y Esgrima",
+        "estadio": "Damaso Latasa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 25,
+        "local": "Juventud Unida",
+        "visitante": "DEFENSORES DE AYACUCHO",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 25,
+        "local": "Santamarina",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 26,
+        "local": "DEFENSORES DE AYACUCHO",
+        "visitante": "Juventud Unida",
+        "estadio": "Defensores"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 26,
+        "local": "Deportivo Tandil",
+        "visitante": "Ferrocarril Sud",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 26,
+        "local": "Gimnasia y Esgrima",
+        "visitante": "Independiente",
+        "estadio": "Predio Jorge Ibañes"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 26,
+        "local": "Juarense",
+        "visitante": "SARMIENTO (AYACUCHO)",
+        "estadio": "Gaston Lafon"
+    },
+    {
+        "competencia": "PRIMERA_A",
+        "fecha": 26,
+        "local": "UNICEN",
+        "visitante": "Santamarina",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 1,
+        "local": "Argentino",
+        "visitante": "Oficina",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 1,
+        "local": "Defensores del Cerro",
+        "visitante": "San José",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 1,
+        "local": "Excursionistas",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 1,
+        "local": "Grupo Universitario",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 1,
+        "local": "Loma Negra",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 1,
+        "local": "Unión y Progreso",
+        "visitante": "Alumni",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 2,
+        "local": "ATENEO ESTRADA",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 2,
+        "local": "Defensores del Cerro",
+        "visitante": "Grupo Universitario",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 2,
+        "local": "Excursionistas",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 2,
+        "local": "Loma Negra",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 2,
+        "local": "Oficina",
+        "visitante": "Alumni",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 2,
+        "local": "Unión y Progreso",
+        "visitante": "Argentino",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 3,
+        "local": "Alumni",
+        "visitante": "Unión y Progreso",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 3,
+        "local": "Argentino",
+        "visitante": "San José",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 3,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 3,
+        "local": "Excursionistas",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 3,
+        "local": "Grupo Universitario",
+        "visitante": "Defensores del Cerro",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 3,
+        "local": "Oficina",
+        "visitante": "Loma Negra",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 4,
+        "local": "Alumni",
+        "visitante": "Excursionistas",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 4,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Oficina",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 4,
+        "local": "Defensores del Cerro",
+        "visitante": "Loma Negra",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 4,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Argentino",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 4,
+        "local": "San José",
+        "visitante": "Grupo Universitario",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 4,
+        "local": "Unión y Progreso",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 5,
+        "local": "Argentino",
+        "visitante": "Excursionistas",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 5,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Grupo Universitario",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 5,
+        "local": "Defensores del Cerro",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 5,
+        "local": "Loma Negra",
+        "visitante": "Oficina",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 5,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Alumni",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 5,
+        "local": "San José",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 6,
+        "local": "ATENEO ESTRADA",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 6,
+        "local": "Argentino",
+        "visitante": "Unión y Progreso",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 6,
+        "local": "Excursionistas",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 6,
+        "local": "Grupo Universitario",
+        "visitante": "San José",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 6,
+        "local": "Loma Negra",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 6,
+        "local": "Oficina",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 7,
+        "local": "Alumni",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 7,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Unión y Progreso",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 7,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "San José",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 7,
+        "local": "Defensores del Cerro",
+        "visitante": "Argentino",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 7,
+        "local": "Grupo Universitario",
+        "visitante": "Oficina",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 7,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Loma Negra",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 8,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Excursionistas",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 8,
+        "local": "Alumni",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 8,
+        "local": "Defensores del Cerro",
+        "visitante": "Oficina",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 8,
+        "local": "Grupo Universitario",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 8,
+        "local": "Loma Negra",
+        "visitante": "Unión y Progreso",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 8,
+        "local": "San José",
+        "visitante": "Argentino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 9,
+        "local": "Argentino",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 9,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 9,
+        "local": "Loma Negra",
+        "visitante": "Alumni",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 9,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Grupo Universitario",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 9,
+        "local": "San José",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 9,
+        "local": "Unión y Progreso",
+        "visitante": "Excursionistas",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 10,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Unión y Progreso",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 10,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Defensores del Cerro",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 10,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Argentino",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 10,
+        "local": "Excursionistas",
+        "visitante": "Alumni",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 10,
+        "local": "Grupo Universitario",
+        "visitante": "Loma Negra",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 10,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "San José",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 11,
+        "local": "Argentino",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 11,
+        "local": "Grupo Universitario",
+        "visitante": "Excursionistas",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 11,
+        "local": "Loma Negra",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 11,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Oficina",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 11,
+        "local": "San José",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 11,
+        "local": "Unión y Progreso",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 12,
+        "local": "ATENEO ESTRADA",
+        "visitante": "San José",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 12,
+        "local": "Alumni",
+        "visitante": "Oficina",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 12,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Grupo Universitario",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 12,
+        "local": "Defensores del Cerro",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 12,
+        "local": "Excursionistas",
+        "visitante": "Argentino",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 12,
+        "local": "Unión y Progreso",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 13,
+        "local": "Alumni",
+        "visitante": "Loma Negra",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 13,
+        "local": "Defensores del Cerro",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 13,
+        "local": "Oficina",
+        "visitante": "Argentino",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 13,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 13,
+        "local": "San José",
+        "visitante": "Excursionistas",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 13,
+        "local": "Unión y Progreso",
+        "visitante": "Grupo Universitario",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 14,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 14,
+        "local": "Argentino",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 14,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Excursionistas",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 14,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Loma Negra",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 14,
+        "local": "Oficina",
+        "visitante": "Unión y Progreso",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 14,
+        "local": "San José",
+        "visitante": "Alumni",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 15,
+        "local": "Defensores del Cerro",
+        "visitante": "Alumni",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 15,
+        "local": "Grupo Universitario",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 15,
+        "local": "Loma Negra",
+        "visitante": "Excursionistas",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 15,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 15,
+        "local": "San José",
+        "visitante": "Oficina",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 15,
+        "local": "Unión y Progreso",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 16,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Grupo Universitario",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 16,
+        "local": "Alumni",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 16,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "San José",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 16,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Oficina",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 16,
+        "local": "Excursionistas",
+        "visitante": "Unión y Progreso",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 16,
+        "local": "Loma Negra",
+        "visitante": "Argentino",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 17,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Alumni",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 17,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Loma Negra",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 17,
+        "local": "Defensores del Cerro",
+        "visitante": "Unión y Progreso",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 17,
+        "local": "Grupo Universitario",
+        "visitante": "Argentino",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 17,
+        "local": "Oficina",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 17,
+        "local": "San José",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 18,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Loma Negra",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 18,
+        "local": "Alumni",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 18,
+        "local": "Argentino",
+        "visitante": "Grupo Universitario",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 18,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Unión y Progreso",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 18,
+        "local": "Oficina",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 18,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Excursionistas",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 19,
+        "local": "Alumni",
+        "visitante": "Grupo Universitario",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 19,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Argentino",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 19,
+        "local": "Defensores del Cerro",
+        "visitante": "Excursionistas",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 19,
+        "local": "Loma Negra",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 19,
+        "local": "San José",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 19,
+        "local": "Unión y Progreso",
+        "visitante": "Oficina",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 20,
+        "local": "Argentino",
+        "visitante": "Alumni",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 20,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 20,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 20,
+        "local": "Excursionistas",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 20,
+        "local": "Oficina",
+        "visitante": "San José",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 20,
+        "local": "Unión y Progreso",
+        "visitante": "Loma Negra",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 21,
+        "local": "Argentino",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 21,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Alumni",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 21,
+        "local": "Grupo Universitario",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 21,
+        "local": "Oficina",
+        "visitante": "Excursionistas",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 21,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 21,
+        "local": "San José",
+        "visitante": "Loma Negra",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 22,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Argentino",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 22,
+        "local": "Alumni",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 22,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 22,
+        "local": "Excursionistas",
+        "visitante": "Oficina",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 22,
+        "local": "Grupo Universitario",
+        "visitante": "Unión y Progreso",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 22,
+        "local": "Loma Negra",
+        "visitante": "San José",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 23,
+        "local": "Alumni",
+        "visitante": "San José",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 23,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "DEPORTIVO RAUCH",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 23,
+        "local": "Excursionistas",
+        "visitante": "Loma Negra",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 23,
+        "local": "Oficina",
+        "visitante": "Grupo Universitario",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 23,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Defensores del Cerro",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 23,
+        "local": "Unión y Progreso",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Quinta La Florida"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 24,
+        "local": "Argentino",
+        "visitante": "BOTAFOGO F.C.",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 24,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Excursionistas",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 24,
+        "local": "Defensores del Cerro",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Figueroa"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 24,
+        "local": "Grupo Universitario",
+        "visitante": "Alumni",
+        "estadio": "La Movediza"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 24,
+        "local": "Oficina",
+        "visitante": "ATENEO ESTRADA",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 24,
+        "local": "San José",
+        "visitante": "Unión y Progreso",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 25,
+        "local": "ATENEO ESTRADA",
+        "visitante": "Oficina",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 25,
+        "local": "Alumni",
+        "visitante": "Argentino",
+        "estadio": "Ferroviarios"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 25,
+        "local": "DEPORTIVO RAUCH",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Municipal rauch"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 25,
+        "local": "Excursionistas",
+        "visitante": "San José",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 25,
+        "local": "Loma Negra",
+        "visitante": "Grupo Universitario",
+        "estadio": "Filadelfio Mondellio"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 25,
+        "local": "SAN LORENZO (RAUCH)",
+        "visitante": "Unión y Progreso",
+        "estadio": "SAN LORENZO Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 26,
+        "local": "ATENEO ESTRADA",
+        "visitante": "SAN LORENZO (RAUCH)",
+        "estadio": "Municipal Ayacucho"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 26,
+        "local": "Argentino",
+        "visitante": "Loma Negra",
+        "estadio": "Doce de Noviembre"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 26,
+        "local": "BOTAFOGO F.C.",
+        "visitante": "Alumni",
+        "estadio": "BOTAFOGO F.C Stadium"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 26,
+        "local": "Excursionistas",
+        "visitante": "Grupo Universitario",
+        "estadio": "Excursionistas"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 26,
+        "local": "Oficina",
+        "visitante": "Defensores del Cerro",
+        "estadio": "Predio Centenario"
+    },
+    {
+        "competencia": "PRIMERA_B",
+        "fecha": 26,
+        "local": "Unión y Progreso",
+        "visitante": "San José",
+        "estadio": "Quinta La Florida"
+    }
+]
