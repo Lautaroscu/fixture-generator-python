@@ -686,22 +686,6 @@
             ],
             "division_mayores": null,
             "division_menores": "B"
-        },
-        {
-            "nombre": "Alumni/Defensores",
-            "estadioLocal": "Ferroviarios",
-            "estadioPropio": false,
-            "categorias_activas": [
-                "quinta",
-                "sexta",
-                "septima",
-                "octava",
-                "novena",
-                "decima"
-            ],
-            "division_mayores": null,
-            "division_menores": "B",
-            "division_femenino": null
         }
     ],
     "torneos": [
@@ -807,8 +791,7 @@
                 "Grupo Universitario",
                 "ATENEO ESTRADA",
                 "Ferro Azul",
-                "Herederos",
-                "Alumni/Defensores"
+                "Herederos"
             ]
         },
         {
@@ -817,6 +800,7 @@
             "participantes": [
                 "SARMIENTO AYACUCHO",
                 "DEFENSORES DE AYACUCHO",
+                "ATENEO ESTRADA",
                 "ATLETICO AYACUCHO",
                 "SAN LORENZO (RAUCH)",
                 "BOTAFOGO F.C."
@@ -830,7 +814,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Loma Negra",
             "torneo_destino": "MENORES-A",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -846,14 +830,6 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Independiente",
             "torneo_destino": "MENORES-A",
-            "hard": false
-        },
-        {
-            "tipo": "INVERSO",
-            "equipo_origen": "Independiente",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Independiente",
-            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -865,12 +841,20 @@
             "hard": true
         },
         {
+            "tipo": "INVERSO",
+            "equipo_origen": "Independiente",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Independiente",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
             "tipo": "ESPEJO",
             "equipo_origen": "Juventud Unida",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Juventud Unida",
             "torneo_destino": "MENORES-A",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "INVERSO",
@@ -886,7 +870,15 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Santamarina",
             "torneo_destino": "MENORES-A",
-            "hard": false
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Santamarina",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Santamarina",
+            "torneo_destino": "FEMENINO-MENORES",
+            "hard": true
         },
         {
             "tipo": "INVERSO",
@@ -894,14 +886,6 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Santamarina",
             "torneo_destino": "FEMENINO-MAYORES",
-            "hard": true
-        },
-        {
-            "tipo": "INVERSO",
-            "equipo_origen": "Santamarina",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Santamarina",
-            "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
         {
@@ -910,7 +894,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Argentino",
             "torneo_destino": "MENORES-A",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -918,7 +902,7 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "UNICEN",
             "torneo_destino": "MENORES-A",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -926,14 +910,6 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "San José",
             "torneo_destino": "MENORES-A",
-            "hard": false
-        },
-        {
-            "tipo": "INVERSO",
-            "equipo_origen": "San José",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "San José",
-            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -945,19 +921,19 @@
             "hard": true
         },
         {
+            "tipo": "INVERSO",
+            "equipo_origen": "San José",
+            "torneo_origen": "MAYORES-B",
+            "equipo_destino": "San José",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
             "tipo": "ESPEJO",
             "equipo_origen": "Ferrocarril Sud",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Ferrocarril Sud",
             "torneo_destino": "MENORES-A",
-            "hard": false
-        },
-        {
-            "tipo": "INVERSO",
-            "equipo_origen": "Ferrocarril Sud",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Ferrocarril Sud",
-            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -969,19 +945,19 @@
             "hard": true
         },
         {
+            "tipo": "INVERSO",
+            "equipo_origen": "Ferrocarril Sud",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Ferrocarril Sud",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
             "tipo": "ESPEJO",
             "equipo_origen": "Gimnasia y Esgrima",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Gimnasia y Esgrima",
             "torneo_destino": "MENORES-A",
-            "hard": false
-        },
-        {
-            "tipo": "INVERSO",
-            "equipo_origen": "Gimnasia y Esgrima",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Gimnasia y Esgrima",
-            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -993,12 +969,28 @@
             "hard": true
         },
         {
+            "tipo": "INVERSO",
+            "equipo_origen": "Gimnasia y Esgrima",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Gimnasia y Esgrima",
+            "torneo_destino": "FEMENINO-MAYORES",
+            "hard": true
+        },
+        {
             "tipo": "ESPEJO",
             "equipo_origen": "Juarense",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Juarense",
             "torneo_destino": "MENORES-A",
-            "hard": false
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "Juarense",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "Juarense",
+            "torneo_destino": "FEMENINO-MENORES",
+            "hard": true
         },
         {
             "tipo": "INVERSO",
@@ -1010,9 +1002,9 @@
         },
         {
             "tipo": "INVERSO",
-            "equipo_origen": "Juarense",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Juarense",
+            "equipo_origen": "Excursionistas",
+            "torneo_origen": "MAYORES-B",
+            "equipo_destino": "Excursionistas",
             "torneo_destino": "FEMENINO-MENORES",
             "hard": true
         },
@@ -1022,14 +1014,6 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Excursionistas",
             "torneo_destino": "MENORES-B",
-            "hard": false
-        },
-        {
-            "tipo": "INVERSO",
-            "equipo_origen": "Excursionistas",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "Excursionistas",
-            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -1037,7 +1021,7 @@
             "equipo_origen": "Excursionistas",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Excursionistas",
-            "torneo_destino": "FEMENINO-MENORES",
+            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -1046,7 +1030,7 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Deportivo Tandil",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1054,7 +1038,7 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Velense",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1062,7 +1046,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Independiente (rojo)",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1070,7 +1054,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Unión y Progreso",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1078,7 +1062,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Oficina",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1086,7 +1070,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Alumni",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1094,7 +1078,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "Grupo Universitario",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1102,7 +1086,7 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "SARMIENTO AYACUCHO",
             "torneo_destino": "MENORES-C",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1110,7 +1094,7 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "DEFENSORES DE AYACUCHO",
             "torneo_destino": "MENORES-C",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1118,7 +1102,23 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "ATENEO ESTRADA",
             "torneo_destino": "MENORES-B",
-            "hard": false
+            "hard": true
+        },
+        {
+            "tipo": "ESPEJO",
+            "equipo_origen": "ATENEO ESTRADA",
+            "torneo_origen": "MAYORES-B",
+            "equipo_destino": "ATENEO ESTRADA",
+            "torneo_destino": "MENORES-C",
+            "hard": true
+        },
+        {
+            "tipo": "INVERSO",
+            "equipo_origen": "ATLETICO AYACUCHO",
+            "torneo_origen": "MAYORES-A",
+            "equipo_destino": "ATLETICO AYACUCHO",
+            "torneo_destino": "FEMENINO-MENORES",
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1126,7 +1126,7 @@
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "ATLETICO AYACUCHO",
             "torneo_destino": "MENORES-C",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "INVERSO",
@@ -1137,27 +1137,19 @@
             "hard": true
         },
         {
-            "tipo": "INVERSO",
-            "equipo_origen": "ATLETICO AYACUCHO",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "ATLETICO AYACUCHO",
-            "torneo_destino": "FEMENINO-MENORES",
-            "hard": true
-        },
-        {
             "tipo": "ESPEJO",
             "equipo_origen": "SAN LORENZO (RAUCH)",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "SAN LORENZO (RAUCH)",
             "torneo_destino": "MENORES-C",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "INVERSO",
             "equipo_origen": "SAN LORENZO (RAUCH)",
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "SAN LORENZO (RAUCH)",
-            "torneo_destino": "FEMENINO-MENORES",
+            "torneo_destino": "FEMENINO-MAYORES",
             "hard": true
         },
         {
@@ -1166,7 +1158,7 @@
             "torneo_origen": "MAYORES-B",
             "equipo_destino": "BOTAFOGO F.C.",
             "torneo_destino": "MENORES-C",
-            "hard": false
+            "hard": true
         },
         {
             "tipo": "ESPEJO",
@@ -1249,14 +1241,6 @@
             "hard": false
         },
         {
-            "tipo": "ESPEJO",
-            "equipo_origen": "Loma Negra",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "Loma Negra",
-            "torneo_destino": "FEMENINO-MENORES",
-            "hard": false
-        },
-        {
             "tipo": "INVERSO",
             "equipo_origen": "UNICEN",
             "torneo_origen": "MAYORES-A",
@@ -1281,36 +1265,12 @@
             "hard": false
         },
         {
-            "tipo": "ESPEJO",
-            "equipo_origen": "Juventud Unida",
-            "torneo_origen": "MAYORES-A",
-            "equipo_destino": "Juventud Unida",
-            "torneo_destino": "FEMENINO-MAYORES",
-            "hard": false
-        },
-        {
             "tipo": "INVERSO",
             "equipo_origen": "Juventud Unida",
             "torneo_origen": "MAYORES-A",
             "equipo_destino": "Unión y Progreso",
             "torneo_destino": "MAYORES-B",
             "hard": false
-        },
-        {
-            "tipo": "ESPEJO",
-            "equipo_origen": "SAN LORENZO (RAUCH)",
-            "torneo_origen": "MAYORES-B",
-            "equipo_destino": "SAN LORENZO (RAUCH)",
-            "torneo_destino": "FEMENINO-MAYORES",
-            "hard": false
-        },
-        {
-            "tipo": "ESPEJO",
-            "equipo_origen": "Alumni/Defensores",
-            "torneo_origen": "MENORES-B",
-            "equipo_destino": "Alumni",
-            "torneo_destino": "MAYORES-B",
-            "hard": true
         }
     ]
 }

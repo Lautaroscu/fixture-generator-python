@@ -631,7 +631,18 @@
                 "quinta": true,
                 "sexta": true,
                 "septima": true,
-                "octava": false,
+                "octava": false
+            },
+            "estadioPropio": false,
+            "estadioLocal": "Municipal Ayacucho",
+            "jerarquia": 0
+        },
+        {
+            "nombre": "ATENEO ESTRADA",
+            "clubPadre": "ATENEO ESTRADA",
+            "localidad": "Ayacucho",
+            "divisionMayor": "C",
+            "categorias": {
                 "novena": true,
                 "decima": true,
                 "undecima": true
@@ -1102,6 +1113,14 @@
             "clubB": "Alumni",
             "bloqueA": "MAYORES",
             "bloqueB": "INFANTILES",
+            "tipo": "ESPEJO",
+            "peso": 500
+        },
+        {
+            "clubA": "Alumni",
+            "clubB": "Alumni",
+            "bloqueA": "MAYORES",
+            "bloqueB": "MAYORES",
             "tipo": "ESPEJO",
             "peso": 500
         },

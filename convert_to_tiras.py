@@ -75,13 +75,31 @@ def migrate():
             torneos[t_id]["participantes"].append(c_name)
             
         # Tiene Menores (Juveniles o Infantiles)?
-        tiene_menores = any(k in cats for k in ["quinta", "sexta", "septima", "octava", "novena", "decima", "undecima"])
-        if tiene_menores:
-            div = c_data.get("division_menores", "A")
-            t_id = f"MENORES-{div}"
-            if t_id not in torneos:
-                torneos[t_id] = {"id": t_id, "nombre": f"Tira Juveniles e Infantiles - Liga {div}", "participantes": []}
-            torneos[t_id]["participantes"].append(c_name)
+        # Caso Especial: Ateneo Estrada se divide
+        if c_name == "ATENEO ESTRADA":
+            # MENORES-B: Quinta, Sexta, Septima
+            if any(k in cats for k in ["quinta", "sexta", "septima"]):
+                t_id = "MENORES-B"
+                if t_id not in torneos:
+                    torneos[t_id] = {"id": t_id, "nombre": "Tira Juveniles e Infantiles - Liga B", "participantes": []}
+                if c_name not in torneos[t_id]["participantes"]:
+                    torneos[t_id]["participantes"].append(c_name)
+            # MENORES-C: Novena, Decima, Undecima (y Octava si tuviera)
+            if any(k in cats for k in ["octava", "novena", "decima", "undecima"]):
+                t_id = "MENORES-C"
+                if t_id not in torneos:
+                    torneos[t_id] = {"id": t_id, "nombre": "Tira Juveniles e Infantiles - Liga C", "participantes": []}
+                if c_name not in torneos[t_id]["participantes"]:
+                    torneos[t_id]["participantes"].append(c_name)
+        else:
+            tiene_menores = any(k in cats for k in ["quinta", "sexta", "septima", "octava", "novena", "decima", "undecima"])
+            if tiene_menores:
+                div = c_data.get("division_menores", "A")
+                t_id = f"MENORES-{div}"
+                if t_id not in torneos:
+                    torneos[t_id] = {"id": t_id, "nombre": f"Tira Juveniles e Infantiles - Liga {div}", "participantes": []}
+                if c_name not in torneos[t_id]["participantes"]:
+                    torneos[t_id]["participantes"].append(c_name)
             
         # Tiene Femenino Mayores? (Incluye Primera y Sub-16)
         if any(k in cats for k in ["femenino_primera", "femenino_sub16"]):
@@ -116,28 +134,27 @@ def migrate():
                 torneos[t_id]["participantes"].append(c_name)
             
     # Reglas Institucionales
-    # Las viejas reglas mapeaban INVERSO o ESPEJO entre bloques.
-    # En el nuevo modelo, los bloques son los propios Torneos.
-    # Si un club juega Mayores e Inferiores, deberian ser INVERSOS por default (para no saturar cancha).
-    # Vamos a generar reglas automáticas de INVERSO para Mismo Club (Mayores vs Menores)
     reglas = []
     for c_name, c_data in clubes.items():
         cats = c_data["categorias_activas"]
         tiene_mayores = "primera" in cats or "reserva" in cats
-        tiene_menores = any(k in cats for k in ["quinta", "sexta", "septima", "octava", "novena", "decima", "undecima"])
+        # Torneos de menores en los que participa este club
+        torneos_men_club = [t_id for t_id, t_info in torneos.items() if "MENORES" in t_id and c_name in t_info["participantes"]]
         
-        if tiene_mayores and tiene_menores:
+        # Sincronizar Mayores con cada uno de sus torneos de Menores
+        if tiene_mayores and torneos_men_club:
             div_may = c_data.get("division_mayores", "A")
-            div_men = c_data.get("division_menores", "A")
-            reglas.append({
-                "tipo": "ESPEJO",
-                "club": c_name,
-                "torneo1": f"MAYORES-{div_may}",
-                "torneo2": f"MENORES-{div_men}"
-            })
+            for t_men in torneos_men_club:
+                reglas.append({
+                    "tipo": "ESPEJO",
+                    "club": c_name,
+                    "torneo1": f"MAYORES-{div_may}",
+                    "torneo2": t_men,
+                    "hard": True
+                })
             
-        tiene_fem_may = "femenino_primera" in cats
-        tiene_fem_men = any(k in cats for k in ["femenino_sub16", "femenino_sub14", "femenino_sub12"])
+        tiene_fem_may = "femenino_primera" in cats or "femenino_sub16" in cats
+        tiene_fem_men = any(k in cats for k in ["femenino_sub14", "femenino_sub12"])
         
         if tiene_fem_may and tiene_mayores:
             div_may = c_data.get("division_mayores", "A")
@@ -152,8 +169,6 @@ def migrate():
 
         if tiene_fem_men and tiene_mayores:
             div_may = c_data.get("division_mayores", "A")
-            # Menores femenino suele seguir la localía de Mayores masculino o cruzado
-            # Por ahora seguiremos la misma lógica que el femenino general anterior
             tipo_fem = "INVERSO"
             reglas.append({
                 "tipo": tipo_fem,
@@ -164,8 +179,6 @@ def migrate():
             })
             
     # ------ EXCEPCIONES EXPLICITAS FEMENINAS ------
-    # "solo tiene q pasar con los femeninos de Loma negra, Independiente que sigue a Independiente Rojo y Ferro, que sigue a Ferro Azul."
-    # Independiente Rojo (MAYORES-B) e Independiente (FEMENINO-MAYORES y MENORES)
     for t_fem in ["FEMENINO-MAYORES", "FEMENINO-MENORES"]:
         reglas.append({
             "tipo": "ESPEJO",
@@ -176,7 +189,6 @@ def migrate():
             "hard": True
         })
     
-    # Ferro Azul (MENORES-B) y Ferrocarril Sud (FEMENINO-MAYORES y MENORES)
     for t_fem in ["FEMENINO-MAYORES", "FEMENINO-MENORES"]:
         reglas.append({
             "tipo": "ESPEJO",
@@ -188,7 +200,7 @@ def migrate():
         })
     
     # ------ REGLAS AYACUCHO ------
-    # Sarmiento y Ateneo Estrada deben cruzar
+    # Sarmiento y Ateneo Estrada deben cruzar en Mayores
     reglas.append({
         "tipo": "INVERSO",
         "clubA": "SARMIENTO AYACUCHO",
@@ -198,37 +210,27 @@ def migrate():
         "hard": True
     })
 
-    # Añadir las reglas explícitas viejas adaptadas
+    # Añadir las reglas explícitas de equipos.json adaptadas
     for r in data.get("reglas", []):
-        # Ej: "clubA": "Independiente", "clubB": "Independiente", "bloqueA": "MAYORES", "bloqueB": "FEM_MAYORES"
         if r["clubA"] == r["clubB"]:
-            # Regla interna del club
             t1 = map_bloque_to_torneo(r["bloqueA"], r["clubA"], clubes)
             t2 = map_bloque_to_torneo(r["bloqueB"], r["clubB"], clubes)
             if t1 and t2 and t1 != t2:
-                # Si una de las reglas viejas intentaba vincular MAYORES con FEMENINO la ignoramos 
-                # porque ya fue cubierta en la generación automática (y excepciones) de arriba
-                if "FEMENINO-A" in [t1, t2] and any("MAYORES" in t for t in [t1, t2]):
+                # Evitar chocar con la automatización de Femenino o Mayores vs Menores ya hecha
+                if any("FEMENINO" in t for t in [t1, t2]) or (any("MAYORES" in t for t in [t1, t2]) and any("MENORES" in t for t in [t1, t2])):
                     continue
                     
-                # Evitar duplicados
-                existe = any(x.get("club") == r["clubA"] and ((x.get("torneo1") == t1 and x.get("torneo2") == t2) or (x.get("torneo1") == t2 and x.get("torneo2") == t1)) for x in reglas)
-                if not existe:
-                    reglas.append({
-                        "tipo": r["tipo"],
-                        "club": r["clubA"],
-                        "torneo1": t1,
-                        "torneo2": t2,
-                        "hard": r.get("hard", False)
-                    })
+                reglas.append({
+                    "tipo": r["tipo"],
+                    "club": r["clubA"],
+                    "torneo1": t1,
+                    "torneo2": t2,
+                    "hard": r.get("hard", False)
+                })
         else:
-            # Regla de estadios compartidos entre distintos clubes
             t1 = map_bloque_to_torneo(r["bloqueA"], r["clubA"], clubes)
             t2 = map_bloque_to_torneo(r["bloqueB"], r["clubB"], clubes)
             if t1 and t2:
-                # Evitar chocar con la automatizacion de Femenino
-                base_a = r["clubA"].split("(")[0].strip()
-                base_b = r["clubB"].split("(")[0].strip()
                 if any(x in [t1, t2] for x in ["FEMENINO-MAYORES", "FEMENINO-MENORES"]) and any("MAYORES" in t for t in [t1, t2]):
                     continue
                     
@@ -241,27 +243,8 @@ def migrate():
                     "hard": r.get("hard", False)
                 })
 
-    # Aplicar la limpieza final (esquema unificado, sin duplicados, inyeccion de entidades)
-    # 1. Inyectar entidad faltante: Alumni/Defensores (Fusión Menores)
-    if not any(c['nombre'] == "Alumni/Defensores" for c in clubes.values()):
-        clubes["Alumni/Defensores"] = {
-            "nombre": "Alumni/Defensores",
-            "estadioLocal": "Ferroviarios",
-            "estadioPropio": False,
-            "categorias_activas": ["quinta", "sexta", "septima", "octava", "novena", "decima"],
-            "division_mayores": None,
-            "division_menores": "B",
-            "division_femenino": None
-        }
-    
-    torneos_list = list(torneos.values())
-    for t in torneos_list:
-        if t['id'] == "MENORES-B" and "Alumni/Defensores" not in t['participantes']:
-            t['participantes'].append("Alumni/Defensores")
-
     # 2. Procesar y limpiar reglas (esquema normalizado)
     firmas_vistas = {}
-
     for r in reglas:
         origen = r.get('clubA', r.get('club'))
         destino = r.get('clubB', r.get('club'))
@@ -269,14 +252,9 @@ def migrate():
         t2 = r.get('torneo2')
         tipo = r.get('tipo')
 
-        # Ignorar reglas corruptas con "None"
-        if not t1 or not t2 or "None" in str(t1) or "None" in str(t2):
-            continue
+        if not t1 or not t2: continue
 
-        # Crear firma única para detectar duplicados (orden alfabético para simetría)
         par = tuple(sorted([(str(origen), str(t1)), (str(destino), str(t2))]))
-        
-        # Guardaremos la regla en un diccionario para que la última (manual) sobreescriba a la primera (orgánica)
         firmas_vistas[par] = {
             "tipo": tipo,
             "equipo_origen": origen,
@@ -288,19 +266,9 @@ def migrate():
 
     reglas_limpias = list(firmas_vistas.values())
 
-    # Regla espejo explícita para la fusión
-    reglas_limpias.append({
-        "tipo": "ESPEJO",
-        "equipo_origen": "Alumni/Defensores",
-        "torneo_origen": "MENORES-B",
-        "equipo_destino": "Alumni",
-        "torneo_destino": "MAYORES-B",
-        "hard": True
-    })
-
     nuevo_json = {
         "clubes": list(clubes.values()),
-        "torneos": torneos_list,
+        "torneos": list(torneos.values()),
         "reglas_institucionales": reglas_limpias
     }
     

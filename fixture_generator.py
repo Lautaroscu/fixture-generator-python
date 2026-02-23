@@ -20,17 +20,22 @@ class FixtureGenerator:
         
         for t_id, participantes in self.torneos_dict.items():
             num_reales = len(participantes)
-            if t_id in self.torneos_short:
+            if t_id == "MENORES-B":
+                self.fechas_por_torneo[t_id] = 20 # Pedido especial usuario
+            elif t_id == "MENORES-C":
+                self.fechas_por_torneo[t_id] = 20 # 2 ida y vuelta = 20 fechas (6 equipos)
+            elif t_id in self.torneos_short:
                 # Una sola vuelta: si es par N-1, si es impar N
                 self.fechas_por_torneo[t_id] = num_reales - 1 if num_reales % 2 == 0 else num_reales
-                # Forzar a 12 si el usuario lo pidió específicamente para Femenino y cabe
-                if "FEMENINO" in t_id:
-                    self.fechas_por_torneo[t_id] = max(self.fechas_por_torneo[t_id], 12)
             else:
-                self.fechas_por_torneo[t_id] = 26
+                # Ida y vuelta completa: si es par (N-1)*2, si es impar N*2
+                ideal = (num_reales - 1) * 2 if num_reales % 2 == 0 else num_reales * 2
+                self.fechas_por_torneo[t_id] = min(ideal, 26) # Tope 26
             
         self.fechas_max = 26
-        self.equipos_femeninos_reales = 13 # Dato informativo
+        # Informar la configuración
+        for t_id, f in self.fechas_por_torneo.items():
+            print(f"Torneo {t_id}: {len(self.torneos_dict[t_id])} equipos, {f} fechas estimadas.")
         
     def solve(self):
         model = cp_model.CpModel()
@@ -66,7 +71,9 @@ class FixtureGenerator:
             if num_reales < 14:
                 num_fechas_vuelta = num_reales - 1 if num_reales % 2 == 0 else num_reales
                 limite = num_fechas_vuelta
-                if t_id not in self.torneos_short:
+                if t_id == "MENORES-C":
+                    limite *= 4 # 2 ida y vuelta completo
+                elif t_id not in self.torneos_short:
                     limite *= 2
                 
                 for d in range(1, 27):
@@ -138,21 +145,53 @@ class FixtureGenerator:
 
                 # IDA Y VUELTA vs SOLO IDA
                 for j in participantes:
-                    if i != j:
+                    if i < j:
                         if t_id in self.torneos_short:
                             # Una sola vez en total (ya sea i local o j local)
                             model.Add(sum(self.juega[(d, t_id, i, j)] + self.juega[(d, t_id, j, i)] for d in range(1, 27)) == 1)
+                        elif t_id == "MENORES-B":
+                            # Para Menores-B: bloques de 10 fechas (SOFT)
+                            j1 = model.NewBoolVar(f"cumple_ida_{t_id}_{i}_{j}")
+                            j2 = model.NewBoolVar(f"cumple_vuelta_{t_id}_{i}_{j}")
+                            model.Add(sum(self.juega[(d, t_id, i, j)] for d in range(1, 11)) == j1)
+                            model.Add(sum(self.juega[(d, t_id, j, i)] for d in range(11, 21)) == j2)
+                            self.penalties.append(j1.Not() * 1000000)
+                            self.penalties.append(j2.Not() * 1000000)
+                        elif t_id == "MENORES-C":
+                            # 2 ida y vuelta = 2 veces cada cruce HARD
+                            model.Add(sum(self.juega[(d, t_id, i, j)] for d in range(1, 27)) == 2)
+                            model.Add(sum(self.juega[(d, t_id, j, i)] for d in range(1, 27)) == 2)
+                            
+                            # 4 bloques de 5 fechas (SOFT)
+                            b1 = model.NewBoolVar(f"b1_{t_id}_{i}_{j}")
+                            b2 = model.NewBoolVar(f"b2_{t_id}_{i}_{j}")
+                            b3 = model.NewBoolVar(f"b3_{t_id}_{i}_{j}")
+                            b4 = model.NewBoolVar(f"b4_{t_id}_{i}_{j}")
+                            model.Add(sum(self.juega[(d, t_id, i, j)] for d in range(1, 6)) == b1)
+                            model.Add(sum(self.juega[(d, t_id, j, i)] for d in range(6, 11)) == b2)
+                            model.Add(sum(self.juega[(d, t_id, i, j)] for d in range(11, 16)) == b3)
+                            model.Add(sum(self.juega[(d, t_id, j, i)] for d in range(16, 21)) == b4)
+                            for b in [b1, b2, b3, b4]:
+                                self.penalties.append(b.Not() * 1000000)
                         else:
-                            # Juegan exactamente una vez de ida y una de vuelta
+                            # Juegan exactamente una vez de ida y una de vuelta (HARD TOTAL)
                             model.Add(sum(self.juega[(d, t_id, i, j)] for d in range(1, 27)) == 1)
                             model.Add(sum(self.juega[(d, t_id, j, i)] for d in range(1, 27)) == 1)
+                            
+                            # Separacion por la mitad real del torneo (SOFT)
+                            s1 = model.NewBoolVar(f"s1_{t_id}_{i}_{j}")
+                            s2 = model.NewBoolVar(f"s2_{t_id}_{j}_{i}")
+                            model.Add(sum(self.juega[(d, t_id, i, j)] for d in range(1, mitad + 1)) == s1)
+                            model.Add(sum(self.juega[(d, t_id, j, i)] for d in range(mitad + 1, fechas_total + 1)) == s2)
+                            self.penalties.append(s1.Not() * 1000000)
+                            self.penalties.append(s2.Not() * 1000000)
                         
-                            num_reales = len(participantes)
-                            # El espejo de PARTIDOS solo es obligatorio si queremos 100% simetría de cruces.
-                            if num_reales == 14:
-                                mitad = 13
-                                for d in range(1, mitad + 1):
-                                    model.Add(self.juega[(d, t_id, i, j)] == self.juega[(d + mitad, t_id, j, i)])
+                        num_reales = len(participantes)
+                        # El espejo de PARTIDOS solo es obligatorio si queremos 100% simetría de cruces.
+                        if num_reales == 14 and t_id != "MENORES-B": # Evitar espejo en B si es asincrono
+                            mitad = 13
+                            for d in range(1, mitad + 1):
+                                model.Add(self.juega[(d, t_id, i, j)] == self.juega[(d + mitad, t_id, j, i)])
                                 
         # 3.2 Espejo de LOCALIA (Este sí es obligatorio para que los mirroring institucionales funcionen)
         for t_id, participantes in self.torneos_dict.items():
@@ -240,7 +279,10 @@ class FixtureGenerator:
                 locA = self.es_local[(d, t1, clubA)]
                 locB = self.es_local[(d, t2, clubB)]
                 
-                peso_real = 5000000 if es_hard else peso
+                if "MENORES-B" in [t1, t2] or "MENORES-C" in [t1, t2]:
+                    peso_real = 50000 # Somewhat strict but allow flexibility for compression
+                else:
+                    peso_real = 5000000 if es_hard else peso
                 
                 penalty_var = model.NewBoolVar(f"penalty_{d}_{clubA}_{clubB}_{t1}_{t2}")
                 self.penalties.append(penalty_var * peso_real)
